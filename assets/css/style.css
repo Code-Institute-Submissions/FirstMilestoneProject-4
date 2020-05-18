@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
+
+/* -- Colours 
+--
+-- 
+--
+*/
+
+.top-screen {
+    background-color: #464F51;
+}
+
+.dropdown {
+    background-color: #464f51;
+}
+
+.footer {
+    background-color: #464f51;
+}
+
+
+/* -- Header
+--
+-- 
+--
+*/
+
+.top-screen {
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    padding-top: 13px;
+}
+
+
+/* -- Title
+--
+-- 
+--
+*/
+
+.title-text {
+    float: left;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.title-text a {
+    text-decoration: none;
+    font-family: 'Bellota', cursive;
+    color: #DEFFF2;
+    font-size: 54px;
+}
+
+
+/* -- Navigation
+--
+-- 
+--
+*/
+
+.menu {
+    float: right;
+    width: 40%;
+}
+
+.menu-item {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    padding: 2px 4px 2px 4px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-family: 'Bellota Text', cursive;
+    color: #DEFFF2;
+    font-size: 20px;
+}
+
+.menu-item:hover {
+    background-color: #464F51;
+    border: 1px solid #DEFFF2;
+    border-radius: 3px;
+}
+
+
+/* -- Nav Icons
+--
+-- 
+--
+*/
+
+.home-align {
+    padding-left: 14.595px;
+}
+
+.cake-align {
+    padding-left: 46.635px;
+}
+
+.book-align {
+    padding-left: 33.82px;
+}
+
+.phone-align {
+    padding-left: 39.42px;
+}
+
+
+/* -- Dropdown
+--
+-- 
+--
+*/
+
+.dropdown {
+    position: absolute;
+    padding: 5px 0 0 0;
+    margin: 5px 0 0 0;
+    width: 200px;
+}
+
+.dropdown-item {
+    text-decoration: none;
+    font-family: 'Bellota Text', cursive;
+    color: #DEFFF2;
+    font-size: 30px;
+    width: 180px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #464F51;
+    border: 1px solid #DEFFF2;
+    border-radius: 3px;
+}
+
+
+/* -- Footer
+--
+-- 
+--
+*/
+
+.footer {
+    width: 100%;
+    height: 40px;
+}
+
+.social-networks {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.social-icons {
+    display: inline;
+    padding-left: 25%;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #DEFFF2;
+}
