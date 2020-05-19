@@ -18,6 +18,14 @@
     background-color: #464f51;
 }
 
+.menu-item:hover {
+    background-color: #464F51;
+}
+
+.dropdown .active {
+    background-color: #464f51;
+}
+
 
 /* -- Header
 --
@@ -84,6 +92,17 @@
     border-radius: 3px;
 }
 
+.active {
+    border: 2px solid #D68FD6;
+    border-radius: 3px;
+    color: #DEFFF2;
+}
+
+.menu .menu-list .home {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 /* -- Nav Icons
 --
@@ -119,6 +138,7 @@
     padding: 5px 0 0 0;
     margin: 5px 0 0 0;
     width: 200px;
+    display: none;
 }
 
 .dropdown-item {
@@ -131,10 +151,15 @@
     margin: 10px 10px 10px 10px;
 }
 
-.dropdown-item:hover {
+.dropdown-item li {
+    list-style-type: none;
+}
+
+.dropdown .dropdown-item:hover {
     background-color: #464F51;
     border: 1px solid #DEFFF2;
     border-radius: 3px;
+    color: #DEFFF2;
 }
 
 
