@@ -1,250 +1,333 @@
-            @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
-            /* -- Colours 
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
+
+/* -- Colours 
 --
 -- 
 --
 */
-            
-            .top-screen {
-                background-color: #464F51;
-            }
-            
-            .dropdown {
-                background-color: #464f51;
-            }
-            
-            .footer {
-                background-color: #464f51;
-            }
-            
-            .menu-item:hover {
-                background-color: #464F51;
-            }
-            
-            .cake-dropdown {
-                background-color: #464f51;
-            }
-            
-            .btn {
-                background-color: #464F51;
-            }
-            
-            @media (max-width: 576px) {
-                /* -- Header
+
+.top-screen {
+    background-color: #464F51;
+}
+
+.dropdown {
+    background-color: #464f51;
+}
+
+.footer {
+    background-color: #464f51;
+}
+
+.menu-item:hover {
+    background-color: #464F51;
+}
+
+.cake-dropdown {
+    background-color: #464f51;
+}
+
+.btn {
+    background-color: #464F51;
+}
+
+@media (min-width: 0px) {
+    /* -- Header
 --
 -- 
 --
 */
-                .top-screen {
-                    width: 100%;
-                    height: 50px;
-                    margin: 0;
-                    padding: 0;
-                }
-                .top-screen .title {
-                    font-family: 'Bellota', cursive;
-                    font-size: 35px;
-                    padding-top: 6px;
-                    padding-left: 10px;
-                    margin-right: 0px;
-                    display: block;
-                }
-                .top-screen .title-text a {
-                    text-decoration: none;
-                    color: #DEFFF2;
-                }
-                /* -- Navigation
+    .top-screen {
+        width: 100%;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    .top-screen .title {
+        font-family: 'Bellota', cursive;
+        font-size: 35px;
+        padding-top: 6px;
+        padding-left: 10px;
+        margin-right: 0px;
+        display: block;
+    }
+    .top-screen .title-text a {
+        text-decoration: none;
+        color: #DEFFF2;
+    }
+    /* -- Navigation
 --
 -- 
 --
 */
-                .large-menu {
-                    display: none;
-                }
-                .btn {
-                    border: none;
-                    color: #DEFFF2;
-                    right: 10px;
-                    top: -49px;
-                    position: absolute;
-                    font-size: 22px;
-                }
-                /* -- Footer
+    .large-menu {
+        display: none;
+    }
+    .btn {
+        border: none;
+        color: #DEFFF2;
+        right: 10px;
+        top: -49px;
+        position: absolute;
+        font-size: 22px;
+    }
+    /* -- Footer
 --
 -- 
 --
 */
-                .footer {
-                    width: 100%;
-                    height: 40px;
-                }
-                .social-networks {
-                    font-size: 20px;
-                    padding-top: 5px;
-                    padding-bottom: 5px;
-                }
-                .social-icons {
-                    display: inline;
-                    padding-left: 21%;
-                }
-                .social-icons a {
-                    text-decoration: none;
-                    color: #DEFFF2;
-                }
-                .social-networks ul {
-                    padding: 0;
-                    margin: 0;
-                }
-            }
-            /* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
+    .footer {
+        width: 100%;
+        height: 40px;
+    }
+    .social-networks {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .social-icons {
+        display: inline;
+        padding-left: 21%;
+    }
+    .social-icons a {
+        text-decoration: none;
+        color: #DEFFF2;
+    }
+    .social-networks ul {
+        padding: 0;
+        margin: 0;
+    }
+    /* -- Callout
+--
+-- 
+--
+*/
+    .callout-container {
+        height: 150px;
+        width: 100%;
+    }
+    .callout {
+        background: url("../images/rose-petals-flower-design.jpg") no-repeat center center;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+/* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
 -- */
-            /*Small devices (landscape phones, 576px and up)
-                @media (min-width: 576px) {
-                    
-                }
-                Medium devices (tablets, 768px and up)
-                @media (min-width: 768px) {
-                    
-                }
-                Large devices (desktops, 992px and up) 
-                @media (min-width: 992px) { 
-                }*/
-            /* Extra large devices (large desktops, 1200px and up) */
-            
-            @media (min-width: 1200px) {
-                /* -- Header
+
+
+/* Small devices (landscape phones,
+576px and up)*/
+
+@media (min-width: 562px) {
+    /* -- Title
 --
 -- 
 --
 */
-                .top-screen {
-                    height: 90px;
-                    width: 100%;
-                    margin: 0;
-                    padding-top: 13px;
-                }
-                /* -- Title
+    .top-screen .title {
+        padding-left: 25px;
+    }
+    /* -- Navigation
 --
 -- 
 --
 */
-                .title-text {
-                    float: left;
-                    padding-left: 50px;
-                    margin: 0;
-                }
-                .title-text a {
-                    text-decoration: none;
-                    font-family: 'Bellota', cursive;
-                    color: #DEFFF2;
-                    font-size: 54px;
-                }
-                /* -- Navigation
+    .btn {
+        right: 18px;
+    }
+    /* -- Footer
+--
+-- 
+-- 
+*/
+    .social-icons {
+        padding-left: 22.5%;
+    }
+}
+
+
+/* 
+    Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        
+    } */
+
+
+/*Large devices (desktops, 992px and up) 
+*/
+
+@media (min-width: 992px) {
+    /* -- Header
+--
+-- 
+-- 
+*/
+    .top-screen {
+        height: 90px;
+        width: 100%;
+        margin: 0;
+        padding-top: 5px;
+    }
+    /* -- Title
 --
 -- 
 --
 */
-                .small-menu {
-                    display: none;
-                }
-                .large-menu {
-                    float: right;
-                    width: 40%;
-                }
-                .large-menu-item {
-                    display: block;
-                    float: left;
-                    margin-right: 30px;
-                    padding: 2px 4px 2px 4px;
-                }
-                .large-menu-item a {
-                    text-decoration: none;
-                    font-family: 'Bellota Text', cursive;
-                    color: #DEFFF2;
-                    font-size: 20px;
-                }
-                .large-menu-item:hover {
-                    background-color: #464F51;
-                    border: 1px solid #DEFFF2;
-                    border-radius: 3px;
-                }
-                .active {
-                    border: 2px solid #D68FD6;
-                    border-radius: 3px;
-                    color: #DEFFF2;
-                }
-                .large-menu .large-menu-list .home {
-                    padding-left: 10px;
-                    padding-right: 10px;
-                }
-                /* -- Nav Icons
+    .title-text {
+        float: left;
+        padding-left: 30px;
+        margin: 0;
+    }
+    .title-text a {
+        text-decoration: none;
+        font-family: 'Bellota', cursive;
+        color: #DEFFF2;
+        font-size: 54px;
+    }
+    /* -- Navigation
 --
 -- 
 --
 */
-                .home-align {
-                    padding-left: 14.595px;
-                }
-                .cake-align {
-                    padding-left: 46.635px;
-                }
-                .book-align {
-                    padding-left: 33.82px;
-                }
-                .phone-align {
-                    padding-left: 39.42px;
-                }
-                /* -- Dropdown
+    .small-menu {
+        display: none;
+    }
+    .large-menu {
+        display: inline;
+        float: right;
+    }
+    .large-menu-item {
+        display: block;
+        float: left;
+        margin-right: 30px;
+        padding: 2px 4px 2px 4px;
+    }
+    .large-menu-item a {
+        text-decoration: none;
+        font-family: 'Bellota Text', cursive;
+        color: #DEFFF2;
+        font-size: 20px;
+    }
+    .large-menu-item:hover {
+        background-color: #464F51;
+        border: 1px solid #DEFFF2;
+        border-radius: 3px;
+    }
+    .active {
+        border: 2px solid #DEFFF2;
+        border-radius: 3px;
+        color: #DEFFF2;
+        z-index: 1;
+    }
+    .large-menu .large-menu-list .home {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* -- Nav Icons
 --
 -- 
 --
 */
-                .cake-dropdown {
-                    position: absolute;
-                    padding: 5px 0 0 0;
-                    margin: 5px 0 0 0;
-                    width: 200px;
-                    display: none;
-                }
-                .large-menu .cake-dropdown-item li {
-                    text-decoration: none;
-                    font-family: 'Bellota Text', cursive;
-                    color: #DEFFF2;
-                    font-size: 20px;
-                    width: 180px;
-                    padding: 10px 10px 10px 10px;
-                    margin: 10px 10px 10px 10px;
-                    height: fit-content;
-                }
-                .cake-dropdown-item li {
-                    list-style-type: none;
-                }
-                .cake-dropdown .cake-dropdown-item li:hover {
-                    background-color: #464F51;
-                    border: 1px solid #DEFFF2;
-                    border-radius: 3px;
-                    color: #DEFFF2;
-                }
-                /* -- Footer
+    .home-align {
+        padding-left: 14.595px;
+    }
+    .cake-align {
+        padding-left: 46.635px;
+    }
+    .book-align {
+        padding-left: 33.82px;
+    }
+    .phone-align {
+        padding-left: 39.42px;
+    }
+    /* -- Dropdown
 --
 -- 
 --
 */
-                .footer {
-                    width: 100%;
-                    height: 40px;
-                }
-                .social-networks {
-                    font-size: 20px;
-                    padding-top: 5px;
-                    padding-bottom: 5px;
-                }
-                .social-icons {
-                    display: inline;
-                    padding-left: 25%;
-                }
-                .social-icons a {
-                    text-decoration: none;
-                    color: #DEFFF2;
-                }
-            }
+    .cake-dropdown {
+        position: absolute;
+        padding: 5px 0 0 0;
+        margin: 5px 0 0 0;
+        width: 200px;
+        display: none;
+    }
+    .large-menu .cake-dropdown-item li {
+        text-decoration: none;
+        font-family: 'Bellota Text', cursive;
+        color: #DEFFF2;
+        font-size: 20px;
+        width: 180px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        height: fit-content;
+    }
+    .cake-dropdown-item li {
+        list-style-type: none;
+    }
+    .cake-dropdown .cake-dropdown-item li:hover {
+        background-color: #464F51;
+        border: 1px solid #DEFFF2;
+        border-radius: 3px;
+        color: #DEFFF2;
+    }
+    /* -- Footer
+--
+-- 
+--
+*/
+    .footer {
+        width: 100%;
+        height: 40px;
+    }
+    .social-networks {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .social-icons {
+        display: inline;
+        padding-left: 23%;
+    }
+    .social-icons a {
+        text-decoration: none;
+        color: #DEFFF2;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    /* -- Title
+--
+-- 
+--
+*/
+    .title-text {
+        padding-left: 50px;
+    }
+    /* -- Navigation
+--
+-- 
+--
+*/
+    .large-menu {
+        display: inline;
+        width: 47%;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* -- Navigation
+--
+-- 
+--
+*/
+    .large-menu {
+        width: 40%;
+    }
+}
