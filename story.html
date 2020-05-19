@@ -21,32 +21,49 @@
         </div>
 
 
-        <nav>
-            <div class="menu">
-                <ul class="menu-list">
-                    <li class="menu-item home"><a href="index.html"><i class="fas fa-home home-align"></i><br> Home </a></li>
+        <nav class="navigation">
+            <div class="small-menu">
+                <div class="dropdown">
+                    <a class="btn btn-secondary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </a>
 
-                    <li class="menu-item">
-                        <a href="#"> <i class="fas fa-birthday-cake cake-align"></i><br> Our Cakes <i class='fa fa-angle-down'></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item active" href="index.html">Home</a>
+                        <a class="dropdown-item" href="birthday.html">Birthday Cakes</a>
+                        <a class="dropdown-item" href="cupcakes.html">Cupcakes</a>
+                        <a class="dropdown-item" href="seasonal.html">Seasonal Cakes</a>
+                        <a class="dropdown-item" href="occasional.html">Occasional Cakes</a>
+                        <a class="dropdown-item" href="story.html">Our Story</a>
+                        <a class="dropdown-item" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="large-menu">
+                <ul class="large-menu-list">
+                    <li class="large-menu-item active home"><a href="index.html"><i class="fas fa-home home-align"></i><br> Home </a></li>
+                    <li class="large-menu-item">
+                        <a href="#"><i class="fas fa-birthday-cake cake-align"></i><br> Our Cakes <i class='fa fa-angle-down'></i></a>
                         <!--  Code used from https://www.jqueryscript.net/menu/Simplest-Dropdown-Navigation-With-jQuery-CSS.html  -->
-                        <ul class="dropdown">
-                            <a href="birthday.html" class="dropdown-item">
+                        <ul class="cake-dropdown">
+                            <a href="birthday.html" class="cake-dropdown-item">
                                 <li>Birthday Cakes</li>
                             </a>
-                            <a href="cupcakes.html" class="dropdown-item">
+                            <a href="cupcakes.html" class="cake-dropdown-item">
                                 <li>Cupcakes</li>
                             </a>
-                            <a href="seasonal.html" class="dropdown-item">
+                            <a href="seasonal.html" class="cake-dropdown-item">
                                 <li>Seasonal Cakes</li>
                             </a>
-                            <a href="occasional.html" class="dropdown-item">
+                            <a href="occasional.html" class="cake-dropdown-item">
                                 <li>Occasional Cakes</li>
                             </a>
                         </ul>
                         <!-- End of code used from https://www.jqueryscript.net/menu/Simplest-Dropdown-Navigation-With-jQuery-CSS.html -->
                     </li>
-                    <li class="menu-item active"><a href="story.html"><i class="fas fa-book book-align"></i><br> Our Story</a></li>
-                    <li class="menu-item"><a href="contact.html"><i class="fas fa-phone-alt phone-align"></i><br> Contact Us</a></li>
+                    <li class="large-menu-item"><a href="story.html"><i class="fas fa-book book-align"></i><br> Our Story</a></li>
+                    <li class="large-menu-item"><a href="contact.html"><i class="fas fa-phone-alt phone-align"></i><br> Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -86,7 +103,7 @@
 
 <script src="http://code.jquery.com/jquery-1.12.4.min.js "></script>
 <script>
-    $('nav li').hover(
+    $('.navigation .large-menu-item').hover(
         function() {
             $('ul', this).stop().slideDown(500);
         },
