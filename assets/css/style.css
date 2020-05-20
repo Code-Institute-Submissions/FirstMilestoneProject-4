@@ -38,6 +38,15 @@
     color: #DEFFF2;
 }
 
+.dropdown-item:hover {
+    background-color: #DEFFF2;
+    color: #464f51;
+}
+
+.initial-display {
+    background-color: #464f51;
+}
+
 @media (min-width: 0px) {
     /* -- Header
 --
@@ -135,6 +144,27 @@
         font-family: 'Bellota Text', cursive;
         color: #DEFFF2;
         padding-top: 75px;
+    }
+    /* -- Initial Display
+--
+-- 
+--
+*/
+    .inital-display {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .bday-cakes {
+        height: 200px;
+        width: 100%;
+    }
+    .dis-bday-img {
+        background: url("../images/birthday-cake-display.jpg") no-repeat center;
+        border: 2px solid #DEFFF2;
+        border-radius: 65px;
+        width: 130px;
+        height: 130px;
     }
 }
 
