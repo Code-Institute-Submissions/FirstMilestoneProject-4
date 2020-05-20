@@ -10,6 +10,14 @@
     background-color: #464F51;
 }
 
+.top-screen .title-text a {
+    color: #DEFFF2;
+}
+
+.btn {
+    color: #DEFFF2;
+}
+
 .dropdown {
     background-color: #464f51;
 }
@@ -34,6 +42,12 @@
     background-color: #464f51;
 }
 
+.dropdown-menu .active {
+    background-color: #464f51;
+    color: #DEFFF2;
+    border-color: 2px solid #DEFFF2;
+}
+
 .dropdown-menu .dropdown-item {
     color: #DEFFF2;
 }
@@ -43,8 +57,20 @@
     color: #464f51;
 }
 
+.callout-text {
+    color: #DEFFF2;
+}
+
 .initial-display {
     background-color: #464f51;
+}
+
+.dis-bday-img {
+    border-color: #DEFFF2;
+}
+
+.social-icons a {
+    color: #DEFFF2;
 }
 
 @media (min-width: 0px) {
@@ -69,7 +95,6 @@
     }
     .top-screen .title-text a {
         text-decoration: none;
-        color: #DEFFF2;
     }
     /* -- Navigation
 --
@@ -81,7 +106,6 @@
     }
     .btn {
         border: none;
-        color: #DEFFF2;
         right: 10px;
         top: -49px;
         position: absolute;
@@ -91,9 +115,8 @@
         font-family: 'Bellota Text', cursive;
     }
     .dropdown-menu .active {
-        background-color: #464f51;
-        color: #DEFFF2;
-        border-bottom: 2px solid #DEFFF2;
+        border-bottom: 2px;
+        border-style: solid;
         border-radius: 5px;
         text-decoration: none;
     }
@@ -117,7 +140,6 @@
     }
     .social-icons a {
         text-decoration: none;
-        color: #DEFFF2;
     }
     .social-networks ul {
         padding: 0;
@@ -142,7 +164,6 @@
         font-size: 30px;
         text-align: center;
         font-family: 'Bellota Text', cursive;
-        color: #DEFFF2;
         padding-top: 75px;
     }
     /* -- Initial Display
@@ -161,7 +182,8 @@
     }
     .dis-bday-img {
         background: url("../images/birthday-cake-display.jpg") no-repeat center;
-        border: 2px solid #DEFFF2;
+        border-style: solid;
+        border-width: 2px;
         border-radius: 65px;
         width: 130px;
         height: 130px;
@@ -247,9 +269,6 @@
         margin: 0;
     }
     .title-text a {
-        text-decoration: none;
-        font-family: 'Bellota', cursive;
-        color: #DEFFF2;
         font-size: 54px;
     }
     /* -- Navigation
@@ -277,8 +296,9 @@
         font-size: 20px;
     }
     .large-menu-item:hover {
-        background-color: #464F51;
+        background-color: #464f51;
         border: 1px solid #DEFFF2;
+        color: #DEFFF2;
         border-radius: 3px;
     }
     .active {
