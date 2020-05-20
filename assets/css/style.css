@@ -120,14 +120,21 @@
 --
 */
     .callout-container {
-        height: 600px;
+        height: 500px;
         width: 100%;
     }
     .callout {
-        background: url("../images/rose-petals-flower-design.jpg") no-repeat center center;
+        background: url("../images/rose-petals-flower-design.jpg") no-repeat center -100px;
         height: 100%;
         width: 100%;
         overflow: hidden;
+    }
+    .callout-text {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Bellota Text', cursive;
+        color: #DEFFF2;
+        padding-top: 75px;
     }
 }
 
@@ -167,11 +174,21 @@
 }
 
 
-/* 
-    Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) {
-        
-    } */
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    /* -- Callout
+--
+-- 
+-- 
+*/
+    .callout {
+        background: url("../images/rose-petals-flower-design.1001px.jpg") no-repeat center -130px;
+    }
+    .callout-text {
+        font-size: 40px;
+    }
+}
 
 
 /*Large devices (desktops, 992px and up) 
@@ -314,6 +331,14 @@
         text-decoration: none;
         color: #DEFFF2;
     }
+    /* -- Callout
+--
+-- 
+--
+*/
+    .callout {
+        background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
+    }
 }
 
 
@@ -336,6 +361,19 @@
     .large-menu {
         display: inline;
         width: 47%;
+    }
+    /* -- Callout
+--
+-- 
+--
+*/
+    .callout {
+        background: url("../images/rose-petals-flower-design.1501px.jpg") no-repeat 0px -450px;
+    }
+    .callout-text {
+        font-size: 50px;
+        padding-right: 500px;
+        padding-top: 140px;
     }
 }
 
