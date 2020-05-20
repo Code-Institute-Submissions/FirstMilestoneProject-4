@@ -30,6 +30,14 @@
     background-color: #464F51;
 }
 
+.dropdown-menu {
+    background-color: #464f51;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #DEFFF2;
+}
+
 @media (min-width: 0px) {
     /* -- Header
 --
@@ -70,6 +78,16 @@
         position: absolute;
         font-size: 22px;
     }
+    .dropdown-item {
+        font-family: 'Bellota Text', cursive;
+    }
+    .dropdown-menu .active {
+        background-color: #464f51;
+        color: #DEFFF2;
+        border-bottom: 2px solid #DEFFF2;
+        border-radius: 5px;
+        text-decoration: none;
+    }
     /* -- Footer
 --
 -- 
@@ -102,7 +120,7 @@
 --
 */
     .callout-container {
-        height: 150px;
+        height: 600px;
         width: 100%;
     }
     .callout {
