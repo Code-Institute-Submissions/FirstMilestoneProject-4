@@ -211,10 +211,6 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .bday-cakes {
-        width: 100%;
-        padding-bottom: 20px;
-    }
     .dis-title {
         padding-top: 20px;
         padding-bottom: 10px;
@@ -231,7 +227,7 @@
     .dis-img {
         border-style: solid;
         border-width: 2px;
-        border-radius: 65px;
+        border-radius: 50%;
         width: 130px;
         height: 130px;
         display: block;
@@ -242,13 +238,13 @@
         font-family: 'Bellota Text', cursive;
     }
     .bday {
-        background: url("../images/birthday-cake-display-150px.jpg") no-repeat -20px -20px;
+        background: url("../images/birthday-150.jpg") no-repeat -20px -20px;
     }
-    .cpcake {
+    .cupcake {
         background: url("../images/cupcake-150.jpg") no-repeat center center;
     }
     .season {
-        background: url("../images/rsz_seasonal-2.jpg") no-repeat center center;
+        background: url("../images/seasonal-150.jpg") no-repeat center center;
         overflow: hidden;
     }
     .everyday {
@@ -281,6 +277,31 @@
     .btn {
         right: 18px;
     }
+    /* -- Callout
+--
+-- 
+-- 
+*/
+    .dis-img {
+        width: 300px;
+        height: 300px;
+    }
+    .dis-text {
+        font-size: 20px;
+        padding: 20px 20px 20px 20px;
+    }
+    .bday {
+        background: url("../images/birthday-300.jpg") no-repeat -100px center;
+    }
+    .cupcake {
+        background: url("../images/cupcake-300.jpg") no-repeat center center;
+    }
+    .season {
+        background: url("../images/season-300.jpg") no-repeat center center;
+    }
+    .everyday {
+        background: url("../images/everyday-300.jpg") no-repeat center center;
+    }
     /* -- Footer
 --
 -- 
@@ -306,6 +327,12 @@
     .callout-text {
         font-size: 40px;
     }
+    /* -- Display
+--
+-- 
+-- 
+*/
+    .dis
 }
 
 
