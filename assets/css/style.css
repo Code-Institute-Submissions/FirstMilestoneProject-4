@@ -1,566 +1,585 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
-
-/* -- Colours 
+                    @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
+                    /* -- Colours 
 --
 -- 
 --
 */
-
-.top-screen {
-    background-color: #383737;
-}
-
-.top-screen .title-text a {
-    color: #DEFFF2;
-}
-
-.btn {
-    color: #DEFFF2;
-}
-
-.dropdown {
-    background-color: #383737;
-}
-
-.footer {
-    background-color: #383737;
-}
-
-.menu-item:hover {
-    background-color: #383737;
-}
-
-.cake-dropdown {
-    background-color: #383737;
-}
-
-.btn {
-    background-color: #383737;
-}
-
-.dropdown-menu {
-    background-color: #383737;
-}
-
-.dropdown-menu .active {
-    background-color: #383737;
-    color: #DEFFF2;
-    border-color: 2px solid #DEFFF2;
-}
-
-.dropdown-menu .dropdown-item {
-    color: #DEFFF2;
-}
-
-.dropdown-item:hover {
-    background-color: #DEFFF2;
-    color: #383737;
-}
-
-.large-menu-item:hover {
-    background-color: #383737;
-    border-color: #DEFFF2;
-    color: #DEFFF2;
-}
-
-.large-menu-item a {
-    color: #DEFFF2
-}
-
-.large-menu .active {
-    border-color: #defff2;
-    color: #defff2;
-}
-
-.large-menu .cake-dropdown-item li {
-    color: #defff2
-}
-
-.cake-dropdown .cake-dropdown-item li:hover {
-    background-color: #383737;
-    border-color: #DEFFF2;
-    color: #DEFFF2;
-}
-
-.callout-text {
-    color: #DEFFF2;
-}
-
-.dis-bday-img {
-    border-color: #383737;
-}
-
-.display-divider {
-    background-color: #383737;
-}
-
-.social-icons a {
-    color: #DEFFF2;
-}
-
-@media (min-width: 0px) {
-    /* -- Header
+                    
+                    .top-screen {
+                        background-color: #383737;
+                    }
+                    
+                    .top-screen .title-text a {
+                        color: #DEFFF2;
+                    }
+                    
+                    .btn {
+                        color: #DEFFF2;
+                    }
+                    
+                    .dropdown {
+                        background-color: #383737;
+                    }
+                    
+                    .footer {
+                        background-color: #383737;
+                    }
+                    
+                    .menu-item:hover {
+                        background-color: #383737;
+                    }
+                    
+                    .cake-dropdown {
+                        background-color: #383737;
+                    }
+                    
+                    .btn {
+                        background-color: #383737;
+                    }
+                    
+                    .dropdown-menu {
+                        background-color: #383737;
+                    }
+                    
+                    .dropdown-menu .active {
+                        background-color: #383737;
+                        color: #DEFFF2;
+                        border-color: 2px solid #DEFFF2;
+                    }
+                    
+                    .dropdown-menu .dropdown-item {
+                        color: #DEFFF2;
+                    }
+                    
+                    .dropdown-item:hover {
+                        background-color: #DEFFF2;
+                        color: #383737;
+                    }
+                    
+                    .large-menu-item:hover {
+                        background-color: #383737;
+                        border-color: #DEFFF2;
+                        color: #DEFFF2;
+                    }
+                    
+                    .large-menu-item a {
+                        color: #DEFFF2
+                    }
+                    
+                    .large-menu .active {
+                        border-color: #defff2;
+                        color: #defff2;
+                    }
+                    
+                    .large-menu .cake-dropdown-item li {
+                        color: #defff2
+                    }
+                    
+                    .cake-dropdown .cake-dropdown-item li:hover {
+                        background-color: #383737;
+                        border-color: #DEFFF2;
+                        color: #DEFFF2;
+                    }
+                    
+                    .callout-text {
+                        color: #DEFFF2;
+                    }
+                    
+                    .dis-bday-img {
+                        border-color: #383737;
+                    }
+                    
+                    .display-divider {
+                        background-color: #383737;
+                    }
+                    
+                    .social-icons a {
+                        color: #DEFFF2;
+                    }
+                    
+                    @media (min-width: 0px) {
+                        /* -- Header
 --
 -- 
 --
 */
-    .top-screen {
-        width: 100%;
-        height: 50px;
-        margin: 0;
-        padding: 0;
-    }
-    .top-screen .title {
-        font-family: 'Bellota', cursive;
-        font-size: 35px;
-        padding-top: 6px;
-        padding-left: 10px;
-        margin-right: 0px;
-        display: block;
-    }
-    .top-screen .title-text a {
-        text-decoration: none;
-    }
-    /* -- Navigation
+                        .top-screen {
+                            width: 100%;
+                            height: 50px;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .top-screen .title {
+                            font-family: 'Bellota', cursive;
+                            font-size: 35px;
+                            padding-top: 6px;
+                            padding-left: 10px;
+                            margin-right: 0px;
+                            display: block;
+                        }
+                        .top-screen .title-text a {
+                            text-decoration: none;
+                        }
+                        /* -- Navigation
 --
 -- 
 --
 */
-    .large-menu {
-        display: none;
-    }
-    .btn {
-        border: none;
-        right: 10px;
-        top: -49px;
-        position: absolute;
-        font-size: 22px;
-    }
-    .dropdown-item {
-        font-family: 'Bellota Text', cursive;
-    }
-    .dropdown-menu .active {
-        border-bottom: 2px;
-        border-style: solid;
-        border-radius: 5px;
-        text-decoration: none;
-    }
-    /* -- Footer
+                        .large-menu {
+                            display: none;
+                        }
+                        .btn {
+                            border: none;
+                            right: 10px;
+                            top: -49px;
+                            position: absolute;
+                            font-size: 22px;
+                        }
+                        .dropdown-item {
+                            font-family: 'Bellota Text', cursive;
+                        }
+                        .dropdown-menu .active {
+                            border-bottom: 2px;
+                            border-style: solid;
+                            border-radius: 5px;
+                            text-decoration: none;
+                        }
+                        /* -- Footer
 --
 -- 
 --
 */
-    .footer {
-        width: 100%;
-        height: 40px;
-        position: fixed;
-        bottom: 0;
-    }
-    .social-networks {
-        font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .social-icons {
-        display: inline;
-        padding-left: 21%;
-    }
-    .social-icons a {
-        text-decoration: none;
-    }
-    .social-networks ul {
-        padding: 0;
-        margin: 0;
-    }
-    /* -- Callout
+                        .footer {
+                            width: 100%;
+                            height: 40px;
+                            position: fixed;
+                            bottom: 0;
+                        }
+                        .social-networks {
+                            font-size: 20px;
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                        }
+                        .social-icons {
+                            display: inline;
+                            padding-left: 21%;
+                        }
+                        .social-icons a {
+                            text-decoration: none;
+                        }
+                        .social-networks ul {
+                            padding: 0;
+                            margin: 0;
+                        }
+                        /* -- Callout
 --
 -- 
 --
 */
-    .callout-container {
-        height: 500px;
-        width: 100%;
-    }
-    .callout {
-        background: url("../images/rose-petals-flower-design.jpg") no-repeat center -100px;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-    }
-    .callout-text {
-        font-size: 30px;
-        text-align: center;
-        font-family: 'Bellota Text', cursive;
-        padding-top: 75px;
-    }
-    /* -- Initial Display
+                        .callout-container {
+                            height: 500px;
+                            width: 100%;
+                        }
+                        .callout {
+                            background: url("../images/rose-petals-flower-design.jpg") no-repeat center -100px;
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                        }
+                        .callout-text {
+                            font-size: 30px;
+                            text-align: center;
+                            font-family: 'Bellota Text', cursive;
+                            padding-top: 75px;
+                        }
+                        /* -- Initial Display
 --
 -- 
 --
 */
-    .inital-display {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .display-divider {
-        width: 150px;
-        height: 5px;
-        border: 0;
-        bottom: 0;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .dis-title {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        text-align: center;
-        font-family: 'Bellota', cursive;
-        font-size: 25px;
-    }
-    .dis-container {
-        display: block;
-        margin: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        height: auto;
-    }
-    .dis-img {
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 50%;
-        width: 130px;
-        height: 130px;
-        display: block;
-        margin: auto;
-    }
-    .dis-text {
-        padding: 10px 20px 20px 20px;
-        font-family: 'Bellota Text', cursive;
-    }
-    .bday {
-        background: url("../images/birthday-150.jpg") no-repeat -20px -20px;
-    }
-    .cupcake {
-        background: url("../images/cupcake-150.jpg") no-repeat center center;
-    }
-    .season {
-        background: url("../images/seasonal-150.jpg") no-repeat center center;
-        overflow: hidden;
-    }
-    .everyday {
-        background: url("../images/everyday-150.jpg");
-    }
-}
-
-
-/* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
+                        .inital-display {
+                            width: 100%;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .display-divider {
+                            width: 150px;
+                            height: 5px;
+                            border: 0;
+                            bottom: 0;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                        }
+                        .dis-title {
+                            padding-top: 20px;
+                            padding-bottom: 10px;
+                            text-align: center;
+                            font-family: 'Bellota', cursive;
+                            font-size: 25px;
+                        }
+                        .dis-container {
+                            display: block;
+                            margin: auto;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            height: auto;
+                        }
+                        .dis-img {
+                            border-style: solid;
+                            border-width: 2px;
+                            border-radius: 50%;
+                            width: 130px;
+                            height: 130px;
+                            display: block;
+                            margin: auto;
+                        }
+                        .dis-text {
+                            padding: 10px 20px 20px 20px;
+                            font-family: 'Bellota Text', cursive;
+                        }
+                        .bday {
+                            background: url("../images/birthday-150.jpg") no-repeat -20px -20px;
+                        }
+                        .cupcake {
+                            background: url("../images/cupcake-150.jpg") no-repeat center center;
+                        }
+                        .season {
+                            background: url("../images/seasonal-150.jpg") no-repeat center center;
+                            overflow: hidden;
+                        }
+                        .everyday {
+                            background: url("../images/everyday-150.jpg");
+                        }
+                        /* -- Birthday Cakes
+--
+-- 
+--
+*/
+                        .shop {
+                            display: block;
+                            height: auto;
+                            width: 100%;
+                        }
+                        .shop-title {
+                            padding-top: 20px;
+                            padding-bottom: 10px;
+                            text-align: center;
+                            font-family: 'Bellota', cursive;
+                            font-size: 25px;
+                        }
+                        .shop-item {
+                            width: 300px;
+                            height: 300px;
+                            border: solid 2px;
+                            border-radius: 10px;
+                            margin: auto;
+                        }
+                        .birthday-img-1 {
+                            background: url("../images/birthdaycake-3.jpg") no-repeat center center;
+                        }
+                        .birthday-img-2 {
+                            background: url("../images/birthcake-2.jpg") no-repeat center center;
+                        }
+                    }
+                    /* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
 -- */
-
-
-/* Small devices (landscape phones,
+                    /* Small devices (landscape phones,
 576px and up)*/
-
-@media (min-width: 562px) {
-    /* -- Title
+                    
+                    @media (min-width: 562px) {
+                        /* -- Title
 --
 -- 
 --
 */
-    .top-screen .title {
-        padding-left: 25px;
-    }
-    /* -- Navigation
+                        .top-screen .title {
+                            padding-left: 25px;
+                        }
+                        /* -- Navigation
 --
 -- 
 --
 */
-    .btn {
-        right: 18px;
-    }
-    /* -- Callout
+                        .btn {
+                            right: 18px;
+                        }
+                        /* -- Callout
 --
 -- 
 -- 
 */
-    .dis-title {
-        font-size: 35px;
-    }
-    .dis-img {
-        width: 250px;
-        height: 250px;
-    }
-    .dis-text {
-        font-size: 20px;
-        padding: 20px 20px 20px 20px;
-    }
-    .bday {
-        background: url("../images/birthday-300.jpg") no-repeat -130px center;
-    }
-    .cupcake {
-        background: url("../images/cupcake-300.jpg") no-repeat center center;
-    }
-    .season {
-        background: url("../images/season-300.jpg") no-repeat -90px center;
-    }
-    .everyday {
-        background: url("../images/everyday-300.jpg") no-repeat center center;
-    }
-    /* -- Footer
+                        .dis-title {
+                            font-size: 35px;
+                        }
+                        .dis-img {
+                            width: 250px;
+                            height: 250px;
+                        }
+                        .dis-text {
+                            font-size: 20px;
+                            padding: 20px 20px 20px 20px;
+                        }
+                        .bday {
+                            background: url("../images/birthday-300.jpg") no-repeat -130px center;
+                        }
+                        .cupcake {
+                            background: url("../images/cupcake-300.jpg") no-repeat center center;
+                        }
+                        .season {
+                            background: url("../images/season-300.jpg") no-repeat -90px center;
+                        }
+                        .everyday {
+                            background: url("../images/everyday-300.jpg") no-repeat center center;
+                        }
+                        /* -- Footer
 --
 -- 
 -- 
 */
-    .social-icons {
-        padding-left: 22.5%;
-    }
-}
-
-
-/* Medium devices (tablets, 768px and up) */
-
-@media (min-width: 768px) {
-    /* -- Callout
+                        .social-icons {
+                            padding-left: 22.5%;
+                        }
+                    }
+                    /* Medium devices (tablets, 768px and up) */
+                    
+                    @media (min-width: 768px) {
+                        /* -- Callout
 --
 -- 
 -- 
 */
-    .callout {
-        background: url("../images/rose-petals-flower-design.1001px.jpg") no-repeat center -130px;
-    }
-    .callout-text {
-        font-size: 40px;
-    }
-    /* -- Display
+                        .callout {
+                            background: url("../images/rose-petals-flower-design.1001px.jpg") no-repeat center -130px;
+                        }
+                        .callout-text {
+                            font-size: 40px;
+                        }
+                        /* -- Display
 --
 -- 
 -- 
 */
-    .dis-title {
-        font-size: 45px;
-    }
-    .dis-text {
-        font-size: 30px;
-    }
-}
-
-
-/*Large devices (desktops, 992px and up) 
+                        .dis-title {
+                            font-size: 45px;
+                        }
+                        .dis-text {
+                            font-size: 30px;
+                        }
+                    }
+                    /*Large devices (desktops, 992px and up) 
 */
-
-@media (min-width: 992px) {
-    /* -- Header
+                    
+                    @media (min-width: 992px) {
+                        /* -- Header
 --
 -- 
 -- 
 */
-    .top-screen {
-        height: 90px;
-        width: 100%;
-        margin: 0;
-        padding-top: 5px;
-    }
-    /* -- Title
+                        .top-screen {
+                            height: 90px;
+                            width: 100%;
+                            margin: 0;
+                            padding-top: 5px;
+                        }
+                        /* -- Title
 --
 -- 
 --
 */
-    .title-text {
-        float: left;
-        padding-left: 30px;
-        margin: 0;
-    }
-    .title-text a {
-        font-size: 54px;
-    }
-    /* -- Navigation
+                        .title-text {
+                            float: left;
+                            padding-left: 30px;
+                            margin: 0;
+                        }
+                        .title-text a {
+                            font-size: 54px;
+                        }
+                        /* -- Navigation
 --
 -- 
 --
 */
-    .small-menu {
-        display: none;
-    }
-    .large-menu {
-        display: inline;
-        float: right;
-    }
-    .large-menu-item {
-        display: block;
-        float: left;
-        margin-right: 30px;
-        padding: 2px 4px 2px 4px;
-    }
-    .large-menu-item a {
-        text-decoration: none;
-        font-family: 'Bellota Text', cursive;
-        font-size: 20px;
-    }
-    .large-menu-item:hover {
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 3px;
-    }
-    .active {
-        border: 2px solid;
-        border-radius: 3px;
-    }
-    .large-menu .large-menu-list .home {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    /* -- Nav Icons
+                        .small-menu {
+                            display: none;
+                        }
+                        .large-menu {
+                            display: inline;
+                            float: right;
+                        }
+                        .large-menu-item {
+                            display: block;
+                            float: left;
+                            margin-right: 30px;
+                            padding: 2px 4px 2px 4px;
+                        }
+                        .large-menu-item a {
+                            text-decoration: none;
+                            font-family: 'Bellota Text', cursive;
+                            font-size: 20px;
+                        }
+                        .large-menu-item:hover {
+                            border-style: solid;
+                            border-width: 2px;
+                            border-radius: 3px;
+                        }
+                        .active {
+                            border: 2px solid;
+                            border-radius: 3px;
+                        }
+                        .large-menu .large-menu-list .home {
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+                        /* -- Nav Icons
 --
 -- 
 --
 */
-    .home-align {
-        padding-left: 14.595px;
-    }
-    .cake-align {
-        padding-left: 46.635px;
-    }
-    .book-align {
-        padding-left: 33.82px;
-    }
-    .phone-align {
-        padding-left: 39.42px;
-    }
-    /* -- Dropdown
+                        .home-align {
+                            padding-left: 14.595px;
+                        }
+                        .cake-align {
+                            padding-left: 46.635px;
+                        }
+                        .book-align {
+                            padding-left: 33.82px;
+                        }
+                        .phone-align {
+                            padding-left: 39.42px;
+                        }
+                        /* -- Dropdown
 --
 -- 
 --
 */
-    .cake-dropdown {
-        position: absolute;
-        padding: 5px 0 0 0;
-        margin: 5px 0 0 0;
-        width: 200px;
-        display: none;
-    }
-    .large-menu .cake-dropdown-item li {
-        text-decoration: none;
-        font-family: 'Bellota Text', cursive;
-        font-size: 20px;
-        width: 180px;
-        padding: 10px 10px 10px 10px;
-        margin: 10px 10px 10px 10px;
-        height: fit-content;
-    }
-    .cake-dropdown-item li {
-        list-style-type: none;
-    }
-    .cake-dropdown .cake-dropdown-item li:hover {
-        border: 1px solid;
-        border-radius: 3px;
-    }
-    /* -- Display
+                        .cake-dropdown {
+                            position: absolute;
+                            padding: 5px 0 0 0;
+                            margin: 5px 0 0 0;
+                            width: 200px;
+                            display: none;
+                        }
+                        .large-menu .cake-dropdown-item li {
+                            text-decoration: none;
+                            font-family: 'Bellota Text', cursive;
+                            font-size: 20px;
+                            width: 180px;
+                            padding: 10px 10px 10px 10px;
+                            margin: 10px 10px 10px 10px;
+                            height: fit-content;
+                        }
+                        .cake-dropdown-item li {
+                            list-style-type: none;
+                        }
+                        .cake-dropdown .cake-dropdown-item li:hover {
+                            border: 1px solid;
+                            border-radius: 3px;
+                        }
+                        /* -- Display
 --
 -- 
 --
 */
-    .dis-container {
-        margin-top: 15px;
-        padding-bottom: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 100%;
-        height: 400px;
-    }
-    .dis-title {
-        text-align: center;
-        padding-top: 25px;
-        width: 100%;
-    }
-    .dis-img {
-        margin-left: 20px;
-        margin-bottom: 20px;
-        padding: 0;
-        float: left;
-    }
-    .dis-text {
-        width: 70%;
-        float: right;
-        padding-top: 50px;
-        padding-right: 15px
-    }
-    .display-divider {
-        bottom: 0;
-    }
-    /* -- Footer
+                        .dis-container {
+                            margin-top: 15px;
+                            padding-bottom: 50px;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            width: 100%;
+                            height: 400px;
+                        }
+                        .dis-title {
+                            text-align: center;
+                            padding-top: 25px;
+                            width: 100%;
+                        }
+                        .dis-img {
+                            margin-left: 20px;
+                            margin-bottom: 20px;
+                            padding: 0;
+                            float: left;
+                        }
+                        .dis-text {
+                            width: 70%;
+                            float: right;
+                            padding-top: 50px;
+                            padding-right: 15px
+                        }
+                        .display-divider {
+                            bottom: 0;
+                        }
+                        /* -- Footer
 --
 -- 
 --
 */
-    .footer {
-        width: 100%;
-        height: 40px;
-    }
-    .social-networks {
-        font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .social-icons {
-        display: inline;
-        padding-left: 23%;
-    }
-    .social-icons a {
-        text-decoration: none;
-    }
-    /* -- Callout
+                        .footer {
+                            width: 100%;
+                            height: 40px;
+                        }
+                        .social-networks {
+                            font-size: 20px;
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                        }
+                        .social-icons {
+                            display: inline;
+                            padding-left: 23%;
+                        }
+                        .social-icons a {
+                            text-decoration: none;
+                        }
+                        /* -- Callout
 --
 -- 
 --
 */
-    .callout {
-        background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
-    }
-}
-
-
-/* Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
-    /* -- Title
+                        .callout {
+                            background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
+                        }
+                    }
+                    /* Extra large devices (large desktops, 1200px and up) */
+                    
+                    @media (min-width: 1200px) {
+                        /* -- Title
 --
 -- 
 --
 */
-    .title-text {
-        padding-left: 50px;
-    }
-    /* -- Navigation
+                        .title-text {
+                            padding-left: 50px;
+                        }
+                        /* -- Navigation
 --
 -- 
 --
 */
-    .large-menu {
-        display: inline;
-        width: 47%;
-    }
-    /* -- Callout
+                        .large-menu {
+                            display: inline;
+                            width: 47%;
+                        }
+                        /* -- Callout
 --
 -- 
 --
 */
-    .callout {
-        background: url("../images/rose-petals-flower-design.1501px.jpg") no-repeat 0px -450px;
-    }
-    .callout-text {
-        font-size: 50px;
-        padding-right: 500px;
-        padding-top: 140px;
-    }
-}
-
-@media (min-width: 1400px) {
-    /* -- Navigation
+                        .callout {
+                            background: url("../images/rose-petals-flower-design.1501px.jpg") no-repeat 0px -450px;
+                        }
+                        .callout-text {
+                            font-size: 50px;
+                            padding-right: 500px;
+                            padding-top: 140px;
+                        }
+                    }
+                    
+                    @media (min-width: 1400px) {
+                        /* -- Navigation
 --
 -- 
 --
 */
-    .large-menu {
-        width: 40%;
-    }
-}
+                        .large-menu {
+                            width: 40%;
+                        }
+                    }
