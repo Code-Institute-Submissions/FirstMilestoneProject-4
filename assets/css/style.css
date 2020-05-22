@@ -154,7 +154,7 @@
                     .dropdown-menu .active {
                         border-bottom: 2px;
                         border-style: solid;
-                        border-radius: 5px;
+                        border-radius: 20px;
                         text-decoration: none;
                     }
                     /* -- Footer
@@ -305,10 +305,40 @@
                         padding-top: 5px;
                     }
                     .birthday-img-1 {
-                        background: url("../images/birthdaycake-3.jpg") no-repeat center center;
+                        background: url("../images/birth-1-300.jpg") no-repeat center center;
                     }
                     .birthday-img-2 {
-                        background: url("../images/birthcake-2.jpg") no-repeat center center;
+                        background: url("../images/birth-2-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-3 {
+                        background: url("../images/birth-3-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-4 {
+                        background: url("../images/birth-4-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-5 {
+                        background: url("../images/birth-5-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-6 {
+                        background: url("../images/birth-6-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-7 {
+                        background: url("../images/birth-7-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-8 {
+                        background: url("../images/birth-8-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-9 {
+                        background: url("../images/birth-9-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-10 {
+                        background: url("../images/birth-10-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-11 {
+                        background: url("../images/birth-11-300.jpg") no-repeat center center;
+                    }
+                    .birthday-img-12 {
+                        background: url("../images/birth-12-300.jpg") no-repeat center center;
                     }
                 }
                 /* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
@@ -456,11 +486,11 @@
                     .large-menu-item:hover {
                         border-style: solid;
                         border-width: 2px;
-                        border-radius: 3px;
+                        border-radius: 20px;
                     }
                     .active {
                         border: 2px solid;
-                        border-radius: 3px;
+                        border-radius: 20px;
                     }
                     .large-menu .large-menu-list .home {
                         padding-left: 10px;
@@ -495,7 +525,7 @@
                         width: 200px;
                         display: none;
                     }
-                    .large-m enu .cake-dropdown-item li {
+                    .large-menu .cake-dropdown-item li {
                         text-decoration: none;
                         font-family: 'Bellota Text', cursive;
                         font-size: 20px;
@@ -509,7 +539,7 @@
                     }
                     .cake-dropdown .cake-dropdown-item li:hover {
                         border: 1px solid;
-                        border-radius: 3px;
+                        border-radius: 20px;
                     }
                     /* -- Di                    splay
 --                    
