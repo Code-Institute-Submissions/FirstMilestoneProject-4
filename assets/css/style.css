@@ -216,6 +216,7 @@
         padding-bottom: 10px;
         text-align: center;
         font-family: 'Bellota', cursive;
+        font-size: 25px;
     }
     .dis-container {
         display: block;
@@ -282,22 +283,25 @@
 -- 
 -- 
 */
+    .dis-title {
+        font-size: 35px;
+    }
     .dis-img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     .dis-text {
         font-size: 20px;
         padding: 20px 20px 20px 20px;
     }
     .bday {
-        background: url("../images/birthday-300.jpg") no-repeat -100px center;
+        background: url("../images/birthday-300.jpg") no-repeat -130px center;
     }
     .cupcake {
         background: url("../images/cupcake-300.jpg") no-repeat center center;
     }
     .season {
-        background: url("../images/season-300.jpg") no-repeat center center;
+        background: url("../images/season-300.jpg") no-repeat -90px center;
     }
     .everyday {
         background: url("../images/everyday-300.jpg") no-repeat center center;
@@ -332,7 +336,12 @@
 -- 
 -- 
 */
-    .dis
+    .dis-title {
+        font-size: 45px;
+    }
+    .dis-text {
+        font-size: 30px;
+    }
 }
 
 
@@ -444,6 +453,38 @@
     .cake-dropdown .cake-dropdown-item li:hover {
         border: 1px solid;
         border-radius: 3px;
+    }
+    /* -- Display
+--
+-- 
+--
+*/
+    .dis-container {
+        margin-top: 15px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        height: 400px;
+    }
+    .dis-title {
+        text-align: center;
+        padding-top: 25px;
+        width: 100%;
+    }
+    .dis-img {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 0;
+        float: left;
+    }
+    .dis-text {
+        width: 70%;
+        float: right;
+        padding-top: 50px;
+    }
+    .display-divider {
+        bottom: 0;
     }
     /* -- Footer
 --
