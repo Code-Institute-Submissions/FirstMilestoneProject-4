@@ -97,6 +97,11 @@
                     color: #DEFFF2;
                 }
                 
+                .shop-title {
+                    background-color: #383737;
+                    color: #defff2;
+                }
+                
                 .shop-container {
                     background-color: #383737;
                     border-color: #383737;
@@ -251,7 +256,7 @@
                         font-family: 'Bellota Text', cursive;
                     }
                     .bday {
-                        background: url("../images/birthday-150.jpg") no-repeat -20px -20px;
+                        background: url("../images/birth-150.jpg") no-repeat -20px -20px;
                     }
                     .cupcake {
                         background: url("../images/cupcake-150.jpg") no-repeat center center;
@@ -261,7 +266,7 @@
                         overflow: hidden;
                     }
                     .everyday {
-                        background: url("../images/everyday-150.jpg");
+                        background: url("../images/everyday-150.jpg") no-repeat center center;
                     }
                     /* -- Birthday Cakes
 --
@@ -304,6 +309,11 @@
                         font-size: 20px;
                         padding-top: 5px;
                     }
+                    /* Birthday Shop
+                    --
+                    --
+                    --
+                    */
                     .birthday-img-1 {
                         background: url("../images/birth-1-300.jpg") no-repeat center center;
                     }
@@ -339,6 +349,129 @@
                     }
                     .birthday-img-12 {
                         background: url("../images/birth-12-300.jpg") no-repeat center center;
+                    }
+                    /* Cupcake Shop 
+                    --
+                    --
+                    --
+                    */
+                    .cupcake-img-1 {
+                        background: url("../images/cupcake-1.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-2 {
+                        background: url("../images/cupcake-2.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-3 {
+                        background: url("../images/cupcake-3.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-4 {
+                        background: url("../images/cupcake-4.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-5 {
+                        background: url("../images/cupcake-5.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-6 {
+                        background: url("../images/cupcake-6.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-7 {
+                        background: url("../images/cupcake-7.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-8 {
+                        background: url("../images/cupcake-8.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-9 {
+                        background: url("../images/cupcake-9.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-10 {
+                        background: url("../images/cupcake-10.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-11 {
+                        background: url("../images/cupcake-11.jpg") no-repeat center center;
+                    }
+                    .cupcake-img-12 {
+                        background: url("../images/cupcake-12.jpg") no-repeat center center;
+                    }
+                    /* Special Occasions 
+                    --
+                    --
+                    --
+                    */
+                    .special-img-1 {
+                        background: url("../images/seasonal-1.jpg") no-repeat center center;
+                    }
+                    .special-img-2 {
+                        background: url("../images/seasonal-2.jpg") no-repeat center center;
+                    }
+                    .special-img-3 {
+                        background: url("../images/seasonal-3.jpg") no-repeat center center;
+                    }
+                    .special-img-4 {
+                        background: url("../images/seasonal-4.jpg") no-repeat center center;
+                    }
+                    .special-img-5 {
+                        background: url("../images/seasonal-5.jpg") no-repeat center center;
+                    }
+                    .special-img-6 {
+                        background: url("../images/seasonal-6.jpg") no-repeat center center;
+                    }
+                    .special-img-7 {
+                        background: url("../images/seasonal-7.jpg") no-repeat center center;
+                    }
+                    .special-img-8 {
+                        background: url("../images/seasonal-8.jpg") no-repeat center center;
+                    }
+                    .special-img-9 {
+                        background: url("../images/seasonal-9.jpg") no-repeat center center;
+                    }
+                    .special-img-10 {
+                        background: url("../images/seasonal-10.jpg") no-repeat center center;
+                    }
+                    .special-img-11 {
+                        background: url("../images/seasonal-11.jpg") no-repeat center center;
+                    }
+                    .special-img-12 {
+                        background: url("../images/seasonal-12.jpg") no-repeat center center;
+                    }
+                    /* Everyday Shop 
+                    --
+                    --
+                    --
+                    */
+                    .everyday-img-1 {
+                        background: url("../images/everyday-1.jpg") no-repeat center center;
+                    }
+                    .everyday-img-2 {
+                        background: url("../images/everyday-2.jpg") no-repeat center center;
+                    }
+                    .everyday-img-3 {
+                        background: url("../images/everyday-3.jpg") no-repeat center center;
+                    }
+                    .everyday-img-4 {
+                        background: url("../images/everyday-4.jpg") no-repeat center center;
+                    }
+                    .everyday-img-5 {
+                        background: url("../images/everyday-5.jpg") no-repeat center center;
+                    }
+                    .everyday-img-6 {
+                        background: url("../images/everyday-6.jpg") no-repeat center center;
+                    }
+                    .everyday-img-7 {
+                        background: url("../images/everyday-7.jpg") no-repeat center center;
+                    }
+                    .everyday-img-8 {
+                        background: url("../images/everyday-8.jpg") no-repeat center center;
+                    }
+                    .everyday-img-9 {
+                        background: url("../images/everyday-9.jpg") no-repeat center center;
+                    }
+                    .everyday-img-10 {
+                        background: url("../images/everyday-10.jpg") no-repeat center center;
+                    }
+                    .everyday-img-11 {
+                        background: url("../images/everyday-11.jpg") no-repeat center center;
+                    }
+                    .everyday-img-12 {
+                        background: url("../images/everyday-12.jpg") no-repeat center center;
                     }
                 }
                 /* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
@@ -380,16 +513,16 @@
                         padding: 20px 20px 20px 20px;
                     }
                     .bday {
-                        background: url("../images/birthday-300.jpg") no-repeat -130px center;
+                        background: url("../images/birth-2-300.jpg") no-repeat center center;
                     }
                     .cupcake {
-                        background: url("../images/cupcake-300.jpg") no-repeat center center;
+                        background: url("../images/cupcake-1.jpg") no-repeat center center;
                     }
                     .season {
-                        background: url("../images/season-300.jpg") no-repeat -90px center;
+                        background: url("../images/seasonal-6.jpg") no-repeat center center;
                     }
                     .everyday {
-                        background: url("../images/everyday-300.jpg") no-repeat center center;
+                        background: url("../images/everyday-1.jpg") no-repeat center center;
                     }
                     /* -- Footer
     -
@@ -565,7 +698,7 @@
                         width: 100%;
                         height: 400px;
                     }
-                    .dis-tit le {
+                    .dis-title {
                         text-align: center;
                         padding-top: 25px;
                         width: 100%;
@@ -621,6 +754,13 @@
 --
  -- 
 */
+                    .shop-title {
+                        font-size: 40px;
+                    }
+                    .item-title {
+                        font-size: 27px;
+                        padding-top: 2px;
+                    }
                     .left {
                         margin-left: 150px;
                     }
