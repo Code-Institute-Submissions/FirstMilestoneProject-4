@@ -419,17 +419,28 @@
                         font-size: 40px;
                     }
                     /* -- Display
-                            --
-    --                     
- 
-
-                           -- 
+--
+--
+ -- 
 */
                     .dis-title {
                         font-size: 45px;
                     }
                     .dis-text {
                         font-size: 30px;
+                    }
+                    /* --  Shop
+--
+--
+ -- 
+*/
+                    .left {
+                        float: left;
+                        margin-left: 75px;
+                    }
+                    .right {
+                        float: right;
+                        margin-right: 75px;
                     }
                 }
                 /*Large devices (desktops, 992px and up) 
@@ -605,6 +616,17 @@
                     .callout {
                         background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
                     }
+                    /* --  Shop
+--
+--
+ -- 
+*/
+                    .left {
+                        margin-left: 150px;
+                    }
+                    .right {
+                        margin-right: 150px;
+                    }
                 }
                 /* Extra large devices (large desktops, 1200px and up) */
                 
@@ -639,6 +661,27 @@
                         padding-right: 500px;
                         padding-top: 140px;
                     }
+                    /* --  Shop
+--
+--
+ -- 
+*/
+                    .shop-width {
+                        margin: auto;
+                        width: 970px;
+                    }
+                    .shop-inline {
+                        display: inline-block;
+                        width: fit-content;
+                        height: fit-content;
+                    }
+                    .shop-container {
+                        margin: 30px 10px 20px 10px;
+                    }
+                    .left,
+                    .right {
+                        float: none;
+                    }
                 }
                 
                 @media (min-width: 1400px) {
@@ -649,5 +692,16 @@
 */
                     .large-menu {
                         width: 40%;
+                    }
+                    /* --  Shop
+--
+--
+ -- 
+*/
+                    .shop-width {
+                        width: 1300px;
+                    }
+                    .shop-container {
+                        margin: 50px 63px 50px 63px;
                     }
                 }
