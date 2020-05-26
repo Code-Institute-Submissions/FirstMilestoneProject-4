@@ -64,8 +64,10 @@
                 background-color: #383737;
             }
             
-            .btn {
+            .btn,
+            .fa-bars {
                 background-color: #383737;
+                color: #defff2;
             }
             
             .dropdown-menu {
@@ -93,6 +95,7 @@
                 color: #DEFFF2;
             }
             
+            .large-menu-item,
             .large-menu-item a {
                 color: #DEFFF2
             }
@@ -660,7 +663,8 @@
                     margin-right: 30px;
                     padding: 2px 4px 2px 4px;
                 }
-                .large-menu-item a {
+                .large-menu-item a,
+                .large-menu-item {
                     text-decoration: none;
                     font-family: 'Bellota Text', cursive;
                     font-size: 20px;
