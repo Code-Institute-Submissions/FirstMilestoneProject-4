@@ -65,7 +65,8 @@
             }
             
             .btn,
-            .fa-bars {
+            .fa-bars,
+            .btn:hover {
                 background-color: #383737;
                 color: #defff2;
             }
