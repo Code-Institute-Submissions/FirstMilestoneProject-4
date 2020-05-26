@@ -1,530 +1,568 @@
-                @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
-                /* -- Colours 
+            @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
+            /* -- Colours 
 --
 -- 
 --
 */
-                
+            
+            .defff2 {
+                color: #defff2;
+            }
+            
+            .defff2-border {
+                border-color: #defff2;
+            }
+            
+            .defff2-background {
+                background-color: #defff2;
+            }
+            
+            .grey {
+                color: #383737;
+            }
+            
+            .grey-border {
+                border-color: #383737;
+            }
+            
+            .grey-background {
+                background-color: #383737;
+            }
+            /*
+                --
+                --
+                --
+                --
+                -
+                */
+            
+            .top-screen {
+                background-color: #383737;
+            }
+            
+            .top-screen .title-text a {
+                color: #DEFFF2;
+            }
+            
+            .btn {
+                color: #DEFFF2;
+            }
+            
+            .dropdown {
+                background-color: #383737;
+            }
+            
+            .footer {
+                background-color: #383737;
+            }
+            
+            .menu-item:hover {
+                background-color: #383737;
+            }
+            
+            .cake-dropdown {
+                background-color: #383737;
+            }
+            
+            .btn {
+                background-color: #383737;
+            }
+            
+            .dropdown-menu {
+                background-color: #383737;
+            }
+            
+            .dropdown-menu .active {
+                background-color: #383737;
+                color: #DEFFF2;
+                border-color: 2px solid #DEFFF2;
+            }
+            
+            .dropdown-menu .dropdown-item {
+                color: #DEFFF2;
+            }
+            
+            .dropdown-item:hover {
+                background-color: #DEFFF2;
+                color: #383737;
+            }
+            
+            .large-menu-item:hover {
+                background-color: #383737;
+                border-color: #DEFFF2;
+                color: #DEFFF2;
+            }
+            
+            .large-menu-item a {
+                color: #DEFFF2
+            }
+            
+            .large-menu .active {
+                border-color: #defff2;
+                color: #defff2;
+            }
+            
+            .large-menu .cake-dropdown-item li {
+                color: #defff2
+            }
+            
+            .cake-dropdown .cake-dropdown-item li:hover {
+                background-color: #383737;
+                border-color: #DEFFF2;
+                color: #DEFFF2;
+            }
+            
+            .callout-text {
+                color: #DEFFF2;
+            }
+            
+            .dis-title {
+                color: #383737;
+            }
+            
+            .dis-img-bday {
+                border-color: #383737;
+            }
+            
+            .display-divider {
+                background-color: #383737;
+            }
+            
+            .social-icons a {
+                color: #DEFFF2;
+            }
+            
+            .shop-title {
+                background-color: #383737;
+                color: #defff2;
+            }
+            
+            .shop-container {
+                background-color: #383737;
+                border-color: #383737;
+            }
+            
+            .shop-item {
+                border-color: #383737;
+            }
+            
+            .item-title {
+                color: #defff2;
+            }
+            
+            @media (min-width: 0px) {
+                /* -- Header
+--
+-- 
+--
+    */
                 .top-screen {
-                    background-color: #383737;
+                    width: 100%;
+                    height: 50px;
+                    margin: 0;
+                    padding: 0;
                 }
-                
+                .top-screen .title {
+                    font-family: 'Bellota', cursive;
+                    font-size: 35px;
+                    padding-top: 6px;
+                    padding-left: 10px;
+                    margin-right: 0px;
+                    display: block;
+                }
                 .top-screen .title-text a {
-                    color: #DEFFF2;
+                    text-decoration: none;
                 }
-                
+                /* -- Navigation
+--
+-- 
+--
+    */
+                .large-menu {
+                    display: none;
+                }
                 .btn {
-                    color: #DEFFF2;
+                    border: none;
+                    right: 10px;
+                    top: -49px;
+                    position: absolute;
+                    font-size: 22px;
                 }
-                
-                .dropdown {
-                    background-color: #383737;
+                .dropdown-item {
+                    font-family: 'Bellota Text', cursive;
                 }
-                
-                .footer {
-                    background-color: #383737;
-                }
-                
-                .menu-item:hover {
-                    background-color: #383737;
-                }
-                
-                .cake-dropdown {
-                    background-color: #383737;
-                }
-                
-                .btn {
-                    background-color: #383737;
-                }
-                
-                .dropdown-menu {
-                    background-color: #383737;
-                }
-                
                 .dropdown-menu .active {
-                    background-color: #383737;
-                    color: #DEFFF2;
-                    border-color: 2px solid #DEFFF2;
+                    border-bottom: 2px;
+                    border-style: solid;
+                    border-radius: 20px;
+                    text-decoration: none;
                 }
-                
-                .dropdown-menu .dropdown-item {
-                    color: #DEFFF2;
+                .small-menu .dropdown-menu .dropdown-item:hover {
+                    border-radius: 0px;
                 }
-                
-                .dropdown-item:hover {
-                    background-color: #DEFFF2;
-                    color: #383737;
+                /* -- Footer
+--
+-- 
+--
+    */
+                .footer {
+                    width: 100%;
+                    height: 40px;
+                    position: fixed;
+                    bottom: 0;
                 }
-                
-                .large-menu-item:hover {
-                    background-color: #383737;
-                    border-color: #DEFFF2;
-                    color: #DEFFF2;
+                .social-networks {
+                    font-size: 20px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
                 }
-                
-                .large-menu-item a {
-                    color: #DEFFF2
+                .social-icons {
+                    display: inline;
+                    padding-left: 21%;
                 }
-                
-                .large-menu .active {
-                    border-color: #defff2;
-                    color: #defff2;
-                }
-                
-                .large-menu .cake-dropdown-item li {
-                    color: #defff2
-                }
-                
-                .cake-dropdown .cake-dropdown-item li:hover {
-                    background-color: #383737;
-                    border-color: #DEFFF2;
-                    color: #DEFFF2;
-                }
-                
-                .callout-text {
-                    color: #DEFFF2;
-                }
-                
-                .dis-bday-img {
-                    border-color: #383737;
-                }
-                
-                .display-divider {
-                    background-color: #383737;
-                }
-                
                 .social-icons a {
-                    color: #DEFFF2;
+                    text-decoration: none;
                 }
-                
-                .shop-title {
-                    background-color: #383737;
-                    color: #defff2;
+                .social-networks ul {
+                    padding: 0;
+                    margin: 0;
                 }
-                
+                /* -- Callout
+--
+-- 
+--
+    */
+                .callout-container {
+                    height: 500px;
+                    width: 100%;
+                }
+                .callout {
+                    background: url("../images/rose-petals-flower-design.jpg") no-repeat center -100px;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+                }
+                .callout-text {
+                    font-size: 30px;
+                    text-align: center;
+                    font-family: 'Bellota Text', cursive;
+                    padding-top: 75px;
+                }
+                /* -- Initial Display
+--
+-- 
+--
+    */
+                .inital-display {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+                .display-divider {
+                    width: 150px;
+                    height: 5px;
+                    border: 0;
+                    bottom: 0;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .dis-title {
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    font-family: 'Bellota', cursive;
+                    font-size: 25px;
+                }
+                .dis-container {
+                    display: block;
+                    margin: auto;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    height: auto;
+                }
+                .dis-img {
+                    border-style: solid;
+                    border-width: 2px;
+                    border-radius: 50%;
+                    width: 130px;
+                    height: 130px;
+                    display: block;
+                    margin: auto;
+                }
+                .dis-text {
+                    padding: 10px 20px 20px 20px;
+                    font-family: 'Bellota Text', cursive;
+                }
+                .bday {
+                    background: url("../images/Birthday/birth-150.jpg") no-repeat -20px -20px;
+                }
+                .cupcake {
+                    background: url("../images/Cupcake/cupcake-150.jpg") no-repeat center center;
+                }
+                .season {
+                    background: url("../images/Season/seasonal-150.jpg") no-repeat center center;
+                    overflow: hidden;
+                }
+                .everyday {
+                    background: url("../images/Everyday/everyday-150.jpg") no-repeat center center;
+                }
+                /* -- Birthday Cakes
+--
+-- 
+--
+    */
+                .shop {
+                    display: block;
+                    height: auto;
+                    width: 100%;
+                }
                 .shop-container {
-                    background-color: #383737;
-                    border-color: #383737;
+                    width: 300px;
+                    height: 350px;
+                    border: solid 2px;
+                    border-radius: 15px;
+                    display: block;
+                    margin: auto;
+                    overflow: hidden;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
                 }
-                
+                .shop-title {
+                    margin-top: 30px;
+                    text-align: center;
+                    font-family: 'Bellota', cursive;
+                    font-size: 30px;
+                    border: solid 2px;
+                    border-radius: 15px;
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
                 .shop-item {
-                    border-color: #383737;
+                    height: 300px;
+                    border-bottom: solid 2px;
                 }
-                
                 .item-title {
-                    color: #defff2;
+                    text-align: center;
+                    font-size: 20px;
+                    padding-top: 5px;
                 }
-                
-                @media (min-width: 0px) {
-                    /* -- Header
---
--- 
---
-    */
-                    .top-screen {
-                        width: 100%;
-                        height: 50px;
-                        margin: 0;
-                        padding: 0;
-                    }
-                    .top-screen .title {
-                        font-family: 'Bellota', cursive;
-                        font-size: 35px;
-                        padding-top: 6px;
-                        padding-left: 10px;
-                        margin-right: 0px;
-                        display: block;
-                    }
-                    .top-screen .title-text a {
-                        text-decoration: none;
-                    }
-                    /* -- Navigation
---
--- 
---
-    */
-                    .large-menu {
-                        display: none;
-                    }
-                    .btn {
-                        border: none;
-                        right: 10px;
-                        top: -49px;
-                        position: absolute;
-                        font-size: 22px;
-                    }
-                    .dropdown-item {
-                        font-family: 'Bellota Text', cursive;
-                    }
-                    .dropdown-menu .active {
-                        border-bottom: 2px;
-                        border-style: solid;
-                        border-radius: 20px;
-                        text-decoration: none;
-                    }
-                    /* -- Footer
---
--- 
---
-    */
-                    .footer {
-                        width: 100%;
-                        height: 40px;
-                        position: fixed;
-                        bottom: 0;
-                    }
-                    .social-networks {
-                        font-size: 20px;
-                        padding-top: 5px;
-                        padding-bottom: 5px;
-                    }
-                    .social-icons {
-                        display: inline;
-                        padding-left: 21%;
-                    }
-                    .social-icons a {
-                        text-decoration: none;
-                    }
-                    .social-networks ul {
-                        padding: 0;
-                        margin: 0;
-                    }
-                    /* -- Callout
---
--- 
---
-    */
-                    .callout-container {
-                        height: 500px;
-                        width: 100%;
-                    }
-                    .callout {
-                        background: url("../images/rose-petals-flower-design.jpg") no-repeat center -100px;
-                        height: 100%;
-                        width: 100%;
-                        overflow: hidden;
-                    }
-                    .callout-text {
-                        font-size: 30px;
-                        text-align: center;
-                        font-family: 'Bellota Text', cursive;
-                        padding-top: 75px;
-                    }
-                    /* -- Initial Display
---
--- 
---
-    */
-                    .inital-display {
-                        width: 100%;
-                        margin: 0;
-                        padding: 0;
-                    }
-                    .display-divider {
-                        width: 150px;
-                        height: 5px;
-                        border: 0;
-                        bottom: 0;
-                        margin-top: 20px;
-                        margin-bottom: 20px;
-                    }
-                    .dis-title {
-                        padding-top: 20px;
-                        padding-bottom: 10px;
-                        text-align: center;
-                        font-family: 'Bellota', cursive;
-                        font-size: 25px;
-                    }
-                    .dis-container {
-                        display: block;
-                        margin: auto;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                        height: auto;
-                    }
-                    .dis-img {
-                        border-style: solid;
-                        border-width: 2px;
-                        border-radius: 50%;
-                        width: 130px;
-                        height: 130px;
-                        display: block;
-                        margin: auto;
-                    }
-                    .dis-text {
-                        padding: 10px 20px 20px 20px;
-                        font-family: 'Bellota Text', cursive;
-                    }
-                    .bday {
-                        background: url("../images/birth-150.jpg") no-repeat -20px -20px;
-                    }
-                    .cupcake {
-                        background: url("../images/cupcake-150.jpg") no-repeat center center;
-                    }
-                    .season {
-                        background: url("../images/seasonal-150.jpg") no-repeat center center;
-                        overflow: hidden;
-                    }
-                    .everyday {
-                        background: url("../images/everyday-150.jpg") no-repeat center center;
-                    }
-                    /* -- Birthday Cakes
---
--- 
---
-    */
-                    .shop {
-                        display: block;
-                        height: auto;
-                        width: 100%;
-                    }
-                    .shop-container {
-                        width: 300px;
-                        height: 350px;
-                        border: solid 2px;
-                        border-radius: 15px;
-                        display: block;
-                        margin: auto;
-                        overflow: hidden;
-                        margin-top: 30px;
-                        margin-bottom: 30px;
-                    }
-                    .shop-title {
-                        margin-top: 30px;
-                        text-align: center;
-                        font-family: 'Bellota', cursive;
-                        font-size: 30px;
-                        border: solid 2px;
-                        border-radius: 15px;
-                        width: 80%;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    .shop-item {
-                        height: 300px;
-                        border-bottom: solid 2px;
-                    }
-                    .item-title {
-                        text-align: center;
-                        font-size: 20px;
-                        padding-top: 5px;
-                    }
-                    /* Birthday Shop
+                /* Birthday Shop
                     --
                     --
                     --
                     */
-                    .birthday-img-1 {
-                        background: url("../images/birth-1-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-2 {
-                        background: url("../images/birth-2-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-3 {
-                        background: url("../images/birth-3-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-4 {
-                        background: url("../images/birth-4-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-5 {
-                        background: url("../images/birth-5-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-6 {
-                        background: url("../images/birth-6-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-7 {
-                        background: url("../images/birth-7-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-8 {
-                        background: url("../images/birth-8-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-9 {
-                        background: url("../images/birth-9-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-10 {
-                        background: url("../images/birth-10-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-11 {
-                        background: url("../images/birth-11-300.jpg") no-repeat center center;
-                    }
-                    .birthday-img-12 {
-                        background: url("../images/birth-12-300.jpg") no-repeat center center;
-                    }
-                    /* Cupcake Shop 
-                    --
-                    --
-                    --
-                    */
-                    .cupcake-img-1 {
-                        background: url("../images/cupcake-1.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-2 {
-                        background: url("../images/cupcake-2.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-3 {
-                        background: url("../images/cupcake-3.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-4 {
-                        background: url("../images/cupcake-4.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-5 {
-                        background: url("../images/cupcake-5.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-6 {
-                        background: url("../images/cupcake-6.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-7 {
-                        background: url("../images/cupcake-7.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-8 {
-                        background: url("../images/cupcake-8.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-9 {
-                        background: url("../images/cupcake-9.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-10 {
-                        background: url("../images/cupcake-10.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-11 {
-                        background: url("../images/cupcake-11.jpg") no-repeat center center;
-                    }
-                    .cupcake-img-12 {
-                        background: url("../images/cupcake-12.jpg") no-repeat center center;
-                    }
-                    /* Special Occasions 
-                    --
-                    --
-                    --
-                    */
-                    .special-img-1 {
-                        background: url("../images/seasonal-1.jpg") no-repeat center center;
-                    }
-                    .special-img-2 {
-                        background: url("../images/seasonal-2.jpg") no-repeat center center;
-                    }
-                    .special-img-3 {
-                        background: url("../images/seasonal-3.jpg") no-repeat center center;
-                    }
-                    .special-img-4 {
-                        background: url("../images/seasonal-4.jpg") no-repeat center center;
-                    }
-                    .special-img-5 {
-                        background: url("../images/seasonal-5.jpg") no-repeat center center;
-                    }
-                    .special-img-6 {
-                        background: url("../images/seasonal-6.jpg") no-repeat center center;
-                    }
-                    .special-img-7 {
-                        background: url("../images/seasonal-7.jpg") no-repeat center center;
-                    }
-                    .special-img-8 {
-                        background: url("../images/seasonal-8.jpg") no-repeat center center;
-                    }
-                    .special-img-9 {
-                        background: url("../images/seasonal-9.jpg") no-repeat center center;
-                    }
-                    .special-img-10 {
-                        background: url("../images/seasonal-10.jpg") no-repeat center center;
-                    }
-                    .special-img-11 {
-                        background: url("../images/seasonal-11.jpg") no-repeat center center;
-                    }
-                    .special-img-12 {
-                        background: url("../images/seasonal-12.jpg") no-repeat center center;
-                    }
-                    /* Everyday Shop 
-                    --
-                    --
-                    --
-                    */
-                    .everyday-img-1 {
-                        background: url("../images/everyday-1.jpg") no-repeat center center;
-                    }
-                    .everyday-img-2 {
-                        background: url("../images/everyday-2.jpg") no-repeat center center;
-                    }
-                    .everyday-img-3 {
-                        background: url("../images/everyday-3.jpg") no-repeat center center;
-                    }
-                    .everyday-img-4 {
-                        background: url("../images/everyday-4.jpg") no-repeat center center;
-                    }
-                    .everyday-img-5 {
-                        background: url("../images/everyday-5.jpg") no-repeat center center;
-                    }
-                    .everyday-img-6 {
-                        background: url("../images/everyday-6.jpg") no-repeat center center;
-                    }
-                    .everyday-img-7 {
-                        background: url("../images/everyday-7.jpg") no-repeat center center;
-                    }
-                    .everyday-img-8 {
-                        background: url("../images/everyday-8.jpg") no-repeat center center;
-                    }
-                    .everyday-img-9 {
-                        background: url("../images/everyday-9.jpg") no-repeat center center;
-                    }
-                    .everyday-img-10 {
-                        background: url("../images/everyday-10.jpg") no-repeat center center;
-                    }
-                    .everyday-img-11 {
-                        background: url("../images/everyday-11.jpg") no-repeat center center;
-                    }
-                    .everyday-img-12 {
-                        background: url("../images/everyday-12.jpg") no-repeat center center;
-                    }
+                .birthday-img-1 {
+                    background: url("../images/Birthday/birth-1-300.jpg") no-repeat center center;
                 }
-                /* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
+                .birthday-img-2 {
+                    background: url("../images/Birthday/birth-2-300.jpg") no-repeat center center;
+                }
+                .birthday-img-3 {
+                    background: url("../images/Birthday/birth-3-300.jpg") no-repeat center center;
+                }
+                .birthday-img-4 {
+                    background: url("../images/Birthday/birth-4-300.jpg") no-repeat center center;
+                }
+                .birthday-img-5 {
+                    background: url("../images/Birthday/birth-5-300.jpg") no-repeat center center;
+                }
+                .birthday-img-6 {
+                    background: url("../images/Birthday/birth-6-300.jpg") no-repeat center center;
+                }
+                .birthday-img-7 {
+                    background: url("../images/Birthday/birth-7-300.jpg") no-repeat center center;
+                }
+                .birthday-img-8 {
+                    background: url("../images/Birthday/birth-8-300.jpg") no-repeat center center;
+                }
+                .birthday-img-9 {
+                    background: url("../images/Birthday/birth-9-300.jpg") no-repeat center center;
+                }
+                .birthday-img-10 {
+                    background: url("../images/Birthday/birth-10-300.jpg") no-repeat center center;
+                }
+                .birthday-img-11 {
+                    background: url("../images/Birthday/birth-11-300.jpg") no-repeat center center;
+                }
+                .birthday-img-12 {
+                    background: url("../images/Birthday/birth-12-300.jpg") no-repeat center center;
+                }
+                /* Cupcake Shop 
+                    --
+                    --
+                    --
+                    */
+                .cupcake-img-1 {
+                    background: url("../images/Cupcake/cupcake-1.jpg") no-repeat center center;
+                }
+                .cupcake-img-2 {
+                    background: url("../images/Cupcake/cupcake-2.jpg") no-repeat center center;
+                }
+                .cupcake-img-3 {
+                    background: url("../images/Cupcake/cupcake-3.jpg") no-repeat center center;
+                }
+                .cupcake-img-4 {
+                    background: url("../images/Cupcake/cupcake-4.jpg") no-repeat center center;
+                }
+                .cupcake-img-5 {
+                    background: url("../images/Cupcake/cupcake-5.jpg") no-repeat center center;
+                }
+                .cupcake-img-6 {
+                    background: url("../images/Cupcake/cupcake-6.jpg") no-repeat center center;
+                }
+                .cupcake-img-7 {
+                    background: url("../images/Cupcake/cupcake-7.jpg") no-repeat center center;
+                }
+                .cupcake-img-8 {
+                    background: url("../images/Cupcake/cupcake-8.jpg") no-repeat center center;
+                }
+                .cupcake-img-9 {
+                    background: url("../images/Cupcake/cupcake-9.jpg") no-repeat center center;
+                }
+                .cupcake-img-10 {
+                    background: url("../images/Cupcake/cupcake-10.jpg") no-repeat center center;
+                }
+                .cupcake-img-11 {
+                    background: url("../images/Cupcake/cupcake-11.jpg") no-repeat center center;
+                }
+                .cupcake-img-12 {
+                    background: url("../images/Cupcake/cupcake-12.jpg") no-repeat center center;
+                }
+                /* Special Occasions 
+                    --
+                    --
+                    --
+                    */
+                .special-img-1 {
+                    background: url("../images/Season/seasonal-1.jpg") no-repeat center center;
+                }
+                .special-img-2 {
+                    background: url("../images/Season/seasonal-2.jpg") no-repeat center center;
+                }
+                .special-img-3 {
+                    background: url("../images/Season/seasonal-3.jpg") no-repeat center center;
+                }
+                .special-img-4 {
+                    background: url("../images/Season/seasonal-4.jpg") no-repeat center center;
+                }
+                .special-img-5 {
+                    background: url("../images/Season/seasonal-5.jpg") no-repeat center center;
+                }
+                .special-img-6 {
+                    background: url("../images/Season/seasonal-6.jpg") no-repeat center center;
+                }
+                .special-img-7 {
+                    background: url("../images/Season/seasonal-7.jpg") no-repeat center center;
+                }
+                .special-img-8 {
+                    background: url("../images/Season/seasonal-8.jpg") no-repeat center center;
+                }
+                .special-img-9 {
+                    background: url("../images/Season/seasonal-9.jpg") no-repeat center center;
+                }
+                .special-img-10 {
+                    background: url("../images/Season/seasonal-10.jpg") no-repeat center center;
+                }
+                .special-img-11 {
+                    background: url("../images/Season/seasonal-11.jpg") no-repeat center center;
+                }
+                .special-img-12 {
+                    background: url("../images/Season/seasonal-12.jpg") no-repeat center center;
+                }
+                /* Everyday Shop 
+                    --
+                    --
+                    --
+                    */
+                .everyday-img-1 {
+                    background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
+                }
+                .everyday-img-2 {
+                    background: url("../images/Everyday/everyday-2.jpg") no-repeat center center;
+                }
+                .everyday-img-3 {
+                    background: url("../images/Everyday/everyday-3.jpg") no-repeat center center;
+                }
+                .everyday-img-4 {
+                    background: url("../images/Everyday/everyday-4.jpg") no-repeat center center;
+                }
+                .everyday-img-5 {
+                    background: url("../images/Everyday/everyday-5.jpg") no-repeat center center;
+                }
+                .everyday-img-6 {
+                    background: url("../images/Everyday/everyday-6.jpg") no-repeat center center;
+                }
+                .everyday-img-7 {
+                    background: url("../images/Everyday/everyday-7.jpg") no-repeat center center;
+                }
+                .everyday-img-8 {
+                    background: url("../images/Everyday/everyday-8.jpg") no-repeat center center;
+                }
+                .everyday-img-9 {
+                    background: url("../images/Everyday/everyday-9.jpg") no-repeat center center;
+                }
+                .everyday-img-10 {
+                    background: url("../images/Everyday/everyday-10.jpg") no-repeat center center;
+                }
+                .everyday-img-11 {
+                    background: url("../images/Everyday/everyday-11.jpg") no-repeat center center;
+                }
+                .everyday-img-12 {
+                    background: url("../images/Everyday/everyday-12.jpg") no-repeat center center;
+                }
+            }
+            /* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
 -- */
-                /* Small devices (landscape phones,
+            /* Small devices (landscape phones,
 576px and up)*/
-                
-                @media (min-width: 562px) {
-                    /* -- Title
+            
+            @media (min-width: 562px) {
+                /* -- Title
                                 --
     -- 
 --
 */
-                    .top-screen .title {
-                        padding-left: 25px;
-                    }
-                    /* -- Navigation
+                .top-screen .title {
+                    padding-left: 25px;
+                }
+                /* -- Navigation
                                 --
     -- 
 --
 */
-                    .btn {
-                        right: 18px;
-                    }
-                    /* -- Callout
+                .btn {
+                    right: 18px;
+                }
+                /* -- Callout
                                 --
                         -- 
                     -- 
                             */
-                    .dis-title {
-                        font-size: 35px;
-                    }
-                    .dis-img {
-                        width: 250px;
-                        height: 250px;
-                    }
-                    .dis-text {
-                        font-size: 20px;
-                        padding: 20px 20px 20px 20px;
-                    }
-                    .bday {
-                        background: url("../images/birth-2-300.jpg") no-repeat center center;
-                    }
-                    .cupcake {
-                        background: url("../images/cupcake-1.jpg") no-repeat center center;
-                    }
-                    .season {
-                        background: url("../images/seasonal-6.jpg") no-repeat center center;
-                    }
-                    .everyday {
-                        background: url("../images/everyday-1.jpg") no-repeat center center;
-                    }
-                    /* -- Footer
+                .dis-title {
+                    font-size: 35px;
+                }
+                .dis-img {
+                    width: 250px;
+                    height: 250px;
+                }
+                .dis-text {
+                    font-size: 20px;
+                    padding: 20px 20px 20px 20px;
+                }
+                .bday {
+                    background: url("../images/Birthday/birth-2-300.jpg") no-repeat center center;
+                }
+                .cupcake {
+                    background: url("../images/Cupcake/cupcake-1.jpg") no-repeat center center;
+                }
+                .season {
+                    background: url("../images/Season/seasonal-6.jpg") no-repeat center center;
+                }
+                .everyday {
+                    background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
+                }
+                /* -- Footer
     -
 
 
@@ -533,315 +571,315 @@
 -- 
 -- 
 */
-                    .social-icons {
-                        padding-left: 22.5%;
-                    }
+                .social-icons {
+                    padding-left: 22.5%;
                 }
-                /* Medium devices (tablets, 768px and up) */
-                
-                @media ( min-width: 768px) {
-                    /* -- Callout
+            }
+            /* Medium devices (tablets, 768px and up) */
+            
+            @media ( min-width: 768px) {
+                /* -- Callout
                             --
     --                     
                                 -- 
                             */
-                    .callout {
-                        background: url("../images/rose-petals-flower-design.1001px.jpg") no-repeat center -130px;
-                    }
-                    .callout-text {
-                        font-size: 40px;
-                    }
-                    /* -- Display
---
---
- -- 
-*/
-                    .dis-title {
-                        font-size: 45px;
-                    }
-                    .dis-text {
-                        font-size: 30px;
-                    }
-                    /* --  Shop
---
---
- -- 
-*/
-                    .left {
-                        float: left;
-                        margin-left: 75px;
-                    }
-                    .right {
-                        float: right;
-                        margin-right: 75px;
-                    }
+                .callout {
+                    background: url("../images/rose-petals-flower-design.1001px.jpg") no-repeat center -130px;
                 }
-                /*Large devices (desktops, 992px and up) 
+                .callout-text {
+                    font-size: 40px;
+                }
+                /* -- Display
+--
+--
+ -- 
 */
-                
-                @media ( min-width: 992px) {
-                    /* -                    - Header
+                .dis-title {
+                    font-size: 45px;
+                }
+                .dis-text {
+                    font-size: 30px;
+                }
+                /* --  Shop
+--
+--
+ -- 
+*/
+                .left {
+                    float: left;
+                    margin-left: 75px;
+                }
+                .right {
+                    float: right;
+                    margin-right: 75px;
+                }
+            }
+            /*Large devices (desktops, 992px and up) 
+*/
+            
+            @media ( min-width: 992px) {
+                /* -                    - Header
     --                    
 --                     
                             -- 
                             */
-                    .top-screen {
-                        height: 90px;
-                        width: 100%;
-                        margin: 0;
-                        padding-top: 5px;
-                    }
-                    /* -- Ti                    tle
+                .top-screen {
+                    height: 90px;
+                    width: 100%;
+                    margin: 0;
+                    padding-top: 5px;
+                }
+                /* -- Ti                    tle
 --                    
                                 -- 
                                 --
 */
-                    .title-text {
-                        float: left;
-                        padding-left: 30px;
-                        margin: 0;
-                    }
-                    .title-text a {
-                        font-size: 54px;
-                    }
-                    /* -- Navigation
+                .title-text {
+                    float: left;
+                    padding-left: 30px;
+                    margin: 0;
+                }
+                .title-text a {
+                    font-size: 54px;
+                }
+                /* -- Navigation
                                 --
                         -- 
                     --
                             */
-                    .small-menu {
-                        display: none;
-                    }
-                    .large-menu {
-                        display: inline;
-                        float: right;
-                    }
-                    .large-menu-item {
-                        display: block;
-                        float: left;
-                        margin-right: 30px;
-                        padding: 2px 4px 2px 4px;
-                    }
-                    .large-menu-item a {
-                        text-decoration: none;
-                        font-family: 'Bellota Text', cursive;
-                        font-size: 20px;
-                    }
-                    .large-menu-item:hover {
-                        border-style: solid;
-                        border-width: 2px;
-                        border-radius: 20px;
-                    }
-                    .active {
-                        border: 2px solid;
-                        border-radius: 20px;
-                    }
-                    .large-menu .large-menu-list .home {
-                        padding-left: 10px;
-                        padding-right: 10px;
-                    }
-                    /* -- Nav Icons
+                .small-menu {
+                    display: none;
+                }
+                .large-menu {
+                    display: inline;
+                    float: right;
+                }
+                .large-menu-item {
+                    display: block;
+                    float: left;
+                    margin-right: 30px;
+                    padding: 2px 4px 2px 4px;
+                }
+                .large-menu-item a {
+                    text-decoration: none;
+                    font-family: 'Bellota Text', cursive;
+                    font-size: 20px;
+                }
+                .large-menu-item:hover {
+                    border-style: solid;
+                    border-width: 2px;
+                    border-radius: 20px;
+                }
+                .active {
+                    border: 2px solid;
+                    border-radius: 20px;
+                }
+                .large-menu .large-menu-list .home {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                /* -- Nav Icons
                                 --
                     -- 
                                 --
                                 */
-                    .home-align {
-                        padding-left: 14.595px;
-                    }
-                    .cake-align {
-                        padding-left: 46.635px;
-                    }
-                    .book-align {
-                        padding-left: 33.82px;
-                    }
-                    .phone-align {
-                        padding-left: 39.42px;
-                    }
-                    /* -- Dropdown
+                .home-align {
+                    padding-left: 14.595px;
+                }
+                .cake-align {
+                    padding-left: 46.635px;
+                }
+                .book-align {
+                    padding-left: 33.82px;
+                }
+                .phone-align {
+                    padding-left: 39.42px;
+                }
+                /* -- Dropdown
      --                   
     --                     
 --                    
                             */
-                    .cake-dropdown {
-                        position: absolute;
-                        padding: 5px 0 0 0;
-                        margin: 5px 0 0 0;
-                        width: 200px;
-                        display: none;
-                    }
-                    .large-menu .cake-dropdown-item li {
-                        text-decoration: none;
-                        font-family: 'Bellota Text', cursive;
-                        font-size: 20px;
-                        width: 180px;
-                        padding: 10px 10px 10px 10px;
-                        margin: 10px 10px 10px 10px;
-                        height: fit-content;
-                    }
-                    .cake-dropdown-item li {
-                        list-style-type: none;
-                    }
-                    .cake-dropdown .cake-dropdown-item li:hover {
-                        border: 1px solid;
-                        border-radius: 20px;
-                    }
-                    /* -- Di                    splay
+                .cake-dropdown {
+                    position: absolute;
+                    padding: 5px 0 0 0;
+                    margin: 5px 0 0 0;
+                    width: 200px;
+                    display: none;
+                }
+                .large-menu .cake-dropdown-item li {
+                    text-decoration: none;
+                    font-family: 'Bellota Text', cursive;
+                    font-size: 20px;
+                    width: 180px;
+                    padding: 10px 10px 10px 10px;
+                    margin: 10px 10px 10px 10px;
+                    height: fit-content;
+                }
+                .cake-dropdown-item li {
+                    list-style-type: none;
+                }
+                .cake-dropdown .cake-dropdown-item li:hover {
+                    border: 1px solid;
+                    border-radius: 20px;
+                }
+                /* -- Di                    splay
 --                    
     --                     
     --                    
 */
-                    .dis-container {
-                        margin-top: 15px;
-                        padding-bottom: 50px;
-                        padding-left: 20px;
-                        padding-right: 20px;
-                        width: 100%;
-                        height: 400px;
-                    }
-                    .dis-title {
-                        text-align: center;
-                        padding-top: 25px;
-                        width: 100%;
-                    }
-                    .dis-img {
-                        margin-left: 20px;
-                        margin-bottom: 20px;
-                        padding: 0;
-                        float: left;
-                    }
-                    .dis-text {
-                        width: 70%;
-                        float: right;
-                        padding-top: 50px;
-                        padding-right: 15px
-                    }
-                    .display-divider {
-                        bottom: 0;
-                    }
-                    /* -- Footer
+                .dis-container {
+                    margin-top: 15px;
+                    padding-bottom: 50px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    width: 100%;
+                    height: 400px;
+                }
+                .dis-title {
+                    text-align: center;
+                    padding-top: 25px;
+                    width: 100%;
+                }
+                .dis-img {
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                    padding: 0;
+                    float: left;
+                }
+                .dis-text {
+                    width: 70%;
+                    float: right;
+                    padding-top: 50px;
+                    padding-right: 15px
+                }
+                .display-divider {
+                    bottom: 0;
+                }
+                /* -- Footer
                             --
                             -- 
                         --
                         */
-                    .footer {
-                        width: 100%;
-                        height: 40px;
-                    }
-                    .social-networks {
-                        font-size: 20px;
-                        padding-top: 5px;
-                        padding-bottom: 5px;
-                    }
-                    .social-icons {
-                        display: inline;
-                        padding-left: 23%;
-                    }
-                    .social-icons a {
-                        text-decoration: none;
-                    }
-                    /* -- Callout
+                .footer {
+                    width: 100%;
+                    height: 40px;
+                }
+                .social-networks {
+                    font-size: 20px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                .social-icons {
+                    display: inline;
+                    padding-left: 23%;
+                }
+                .social-icons a {
+                    text-decoration: none;
+                }
+                /* -- Callout
 -
 
 -
 -- 
 --
 */
-                    .callout {
-                        background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
-                    }
-                    /* --  Shop
+                .callout {
+                    background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
+                }
+                /* --  Shop
 --
 --
  -- 
 */
-                    .shop-title {
-                        font-size: 40px;
-                    }
-                    .item-title {
-                        font-size: 27px;
-                        padding-top: 2px;
-                    }
-                    .left {
-                        margin-left: 150px;
-                    }
-                    .right {
-                        margin-right: 150px;
-                    }
+                .shop-title {
+                    font-size: 40px;
                 }
-                /* Extra large devices (large desktops, 1200px and up) */
-                
-                @media (min-width: 1200px) {
-                    /* -- Title
+                .item-title {
+                    font-size: 27px;
+                    padding-top: 2px;
+                }
+                .left {
+                    margin-left: 150px;
+                }
+                .right {
+                    margin-right: 150px;
+                }
+            }
+            /* Extra large devices (large desktops, 1200px and up) */
+            
+            @media (min-width: 1200px) {
+                /* -- Title
                                 --
 -- 
 --
     */
-                    .title-text {
-                        padding-left: 50px;
-                    }
-                    /* -- Navigation
+                .title-text {
+                    padding-left: 50px;
+                }
+                /* -- Navigation
                             --
                                 -- 
 --
     */
-                    .large-menu {
-                        display: inline;
-                        width: 47%;
-                    }
-                    /* -- Callout
+                .large-menu {
+                    display: inline;
+                    width: 47%;
+                }
+                /* -- Callout
                             --
                     -- 
                     --
                     */
-                    .callout {
-                        background: url("../images/rose-petals-flower-design.1501px.jpg") no-repeat 0px -450px;
-                    }
-                    .callout-text {
-                        font-size: 50px;
-                        padding-right: 500px;
-                        padding-top: 140px;
-                    }
-                    /* --  Shop
+                .callout {
+                    background: url("../images/rose-petals-flower-design.1501px.jpg") no-repeat 0px -450px;
+                }
+                .callout-text {
+                    font-size: 50px;
+                    padding-right: 500px;
+                    padding-top: 140px;
+                }
+                /* --  Shop
 --
 --
  -- 
 */
-                    .shop-width {
-                        margin: auto;
-                        width: 970px;
-                    }
-                    .shop-inline {
-                        display: inline-block;
-                        width: fit-content;
-                        height: fit-content;
-                    }
-                    .shop-container {
-                        margin: 30px 10px 20px 10px;
-                    }
-                    .left,
-                    .right {
-                        float: none;
-                    }
+                .shop-width {
+                    margin: auto;
+                    width: 970px;
                 }
-                
-                @media (min-width: 1400px) {
-                    /* -- Navigation
+                .shop-inline {
+                    display: inline-block;
+                    width: fit-content;
+                    height: fit-content;
+                }
+                .shop-container {
+                    margin: 30px 10px 20px 10px;
+                }
+                .left,
+                .right {
+                    float: none;
+                }
+            }
+            
+            @media (min-width: 1400px) {
+                /* -- Navigation
 --
 -- 
 --
 */
-                    .large-menu {
-                        width: 40%;
-                    }
-                    /* --  Shop
+                .large-menu {
+                    width: 40%;
+                }
+                /* --  Shop
 --
 --
  -- 
 */
-                    .shop-width {
-                        width: 1300px;
-                    }
-                    .shop-container {
-                        margin: 50px 63px 50px 63px;
-                    }
+                .shop-width {
+                    width: 1300px;
                 }
+                .shop-container {
+                    margin: 50px 63px 50px 63px;
+                }
+            }
