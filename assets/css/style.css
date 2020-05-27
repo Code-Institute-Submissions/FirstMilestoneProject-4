@@ -179,9 +179,6 @@ a:hover {
         display: inline;
         padding-left: 21%;
     }
-    .social-icons a {
-        text-decoration: none;
-    }
     .social-networks ul {
         padding: 0;
         margin: 0;
@@ -312,19 +309,19 @@ a:hover {
                     --
                     */
     .birthday-img-1 {
-        background: url("../images/Birthday/birth-1-300.jpg") no-repeat center center;
+        background: url("../images/Birthday/birth-1-300.jp2") no-repeat center center;
     }
     .birthday-img-2 {
-        background: url("../images/Birthday/birth-2-300.jpg") no-repeat center center;
+        background: url("../images/Birthday/birth-2-300.jp2") no-repeat center center;
     }
     .birthday-img-3 {
-        background: url("../images/Birthday/birth-3-300.jpg") no-repeat center center;
+        background: url("../images/Birthday/birth-3-300.jp2") no-repeat center center;
     }
     .birthday-img-4 {
-        background: url("../images/Birthday/birth-4-300.jpg") no-repeat center center;
+        background: url("../images/Birthday/birth-4-300.jp2") no-repeat center center;
     }
     .birthday-img-5 {
-        background: url("../images/Birthday/birth-5-300.jpg") no-repeat center center;
+        background: url("../images/Birthday/birth-5-300.jp2") no-repeat center center;
     }
     .birthday-img-6 {
         background: url("../images/Birthday/birth-6-300.jpg") no-repeat center center;
@@ -729,21 +726,9 @@ a:hover {
                             -- 
                         --
                         */
-    .footer {
-        width: 100%;
-        height: 40px;
-    }
-    .social-networks {
-        font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
     .social-icons {
         display: inline;
         padding-left: 23%;
-    }
-    .social-icons a {
-        text-decoration: none;
     }
     /* -- Callout
 -
