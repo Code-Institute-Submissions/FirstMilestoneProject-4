@@ -467,6 +467,23 @@ a:hover {
     .everyday-img-12 {
         background: url("../images/Everyday/everyday-12.jpg") no-repeat center center;
     }
+    /* -- Contact
+--
+-- 
+-- 
+*/
+    input {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 25px;
+        border: solid #defff2 2px;
+        padding-left: 15px;
+        height: 50px;
+    }
+    #message {
+        height: 250px;
+    }
 }
 
 
@@ -523,11 +540,7 @@ a:hover {
         background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
     }
     /* -- Footer
-    -
-
-
-
--
+--
 -- 
 -- 
 */
