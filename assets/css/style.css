@@ -503,6 +503,36 @@ a:hover {
     #message {
         height: 240px;
     }
+    /* Story 
+    --
+    --
+    --
+    */
+    .story-callout {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    .story-1 {
+        background: url("../images/family.jpg") no-repeat -105px center;
+    }
+    .story-1-text {
+        padding-left: 200px;
+    }
+    .story-2 {
+        background: url("../images/balloons-600.jpg") no-repeat center center;
+    }
+    .story-3 {
+        background: url("../images/handshake.jpg") no-repeat center center;
+    }
+    .story-3-text {
+        padding-top: 40px;
+    }
+    .story-text {
+        font-size: 20px;
+        font-family: 'Bellota Text', cursive;
+        padding: 10px 10px 10px 10px;
+    }
 }
 
 
