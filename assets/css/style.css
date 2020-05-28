@@ -159,6 +159,10 @@ a:hover {
     .small-menu .dropdown-menu .dropdown-item:hover {
         border-radius: 0px;
     }
+    .contact-menu-border {
+        border: solid 2px #defff2;
+        border-radius: 15px;
+    }
     /* -- Footer
 --
 -- 
@@ -734,16 +738,16 @@ a:hover {
                                 --
                                 */
     .home-align {
-        padding-left: 14.595px;
+        padding: 0 14.595px 0 14.595px;
     }
     .cake-align {
-        padding-left: 46.635px;
+        padding: 0 46.635px 0 46.635px;
     }
     .book-align {
-        padding-left: 33.82px;
+        padding: 0 33.82px 0 33.82px;
     }
     .phone-align {
-        padding-left: 39.42px;
+        padding: 0 39.42px 0 39.42px;
     }
     /* -- Dropdown
      --                   
@@ -752,8 +756,9 @@ a:hover {
                             */
     .cake-dropdown {
         position: absolute;
-        padding: 5px 0 0 0;
+        padding: 5px 0 5px 0;
         margin: 5px 0 0 0;
+        height: 264px;
         width: 200px;
         display: none;
     }
