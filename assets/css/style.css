@@ -665,6 +665,9 @@ a:hover {
 --
  -- 
 */
+    .shop {
+        height: 2550px;
+    }
     .left {
         float: left;
         margin-left: 75px;
@@ -900,6 +903,9 @@ a:hover {
 --
  -- 
 */
+    .shop {
+        height: auto;
+    }
     .shop-width {
         margin: auto;
         width: 970px;
