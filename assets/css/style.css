@@ -480,9 +480,6 @@ a:hover {
     .contact-sec {
         text-align: center;
         padding-top: 20px;
-        background-color: #defff2;
-        border-bottom: solid #383737 2px;
-        border-top: solid #383737 2px;
         padding-bottom: 15px;
     }
     .title {
@@ -505,6 +502,9 @@ a:hover {
         padding-left: 15px;
         height: 50px;
         border-radius: 20px;
+        color: #383737;
+    }
+    input::placeholder {
         color: #383737;
     }
     #message {
@@ -658,6 +658,11 @@ a:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media ( min-width: 768px) {
+    /* Title 
+    --
+    --
+    --
+    */
     /* -- Callout
                             --
     --                     
@@ -709,13 +714,16 @@ a:hover {
         height: 90px;
         width: 100%;
         margin: 0;
-        padding-top: 5px;
+        padding-top: 0;
     }
     /* -- Ti                    tle
 --                    
                                 -- 
                                 --
 */
+    .top-screen .title {
+        padding-top: 5px;
+    }
     .title-text {
         float: left;
         padding-left: 30px;
