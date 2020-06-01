@@ -156,9 +156,6 @@ a:hover {
         border-radius: 20px;
         text-decoration: none;
     }
-    .small-menu .dropdown-menu .dropdown-item:hover {
-        border-radius: 0px;
-    }
     /* -- Footer
 --
 -- 
@@ -171,8 +168,7 @@ a:hover {
     }
     .social-networks {
         font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 5px 0 5px 0;
     }
     .social-icons {
         display: inline;
@@ -216,14 +212,10 @@ a:hover {
     .display-divider {
         width: 150px;
         height: 5px;
-        border: 0;
-        bottom: 0;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        border: none;
     }
     .dis-title {
-        padding-top: 20px;
-        padding-bottom: 10px;
+        padding: 20px 0 10px 0;
         text-align: center;
         font-family: 'Bellota', cursive;
         font-size: 25px;
@@ -231,8 +223,7 @@ a:hover {
     .dis-container {
         display: block;
         margin: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0 10px 0;
         height: auto;
     }
     .dis-img {
@@ -277,21 +268,17 @@ a:hover {
         border: solid 2px;
         border-radius: 15px;
         display: block;
-        margin: auto;
         overflow: hidden;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin: 30px auto 30px auto;
     }
     .shop-title {
-        margin-top: 30px;
         text-align: center;
         font-family: 'Bellota', cursive;
         font-size: 30px;
         border: solid 2px;
         border-radius: 15px;
         width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 30px auto 0 auto;
     }
     .shop-item {
         height: 300px;
@@ -475,8 +462,7 @@ a:hover {
 */
     .contact-sec {
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 15px;
+        padding: 20px 0 15px 0;
     }
     .title {
         font-size: 30px;
@@ -491,14 +477,12 @@ a:hover {
         font-size: 20px;
         font-family: 'Bellota Text', cursive;
         width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 25px;
         border: solid #383737 6px;
         padding-left: 15px;
         height: 50px;
         border-radius: 20px;
         color: #383737;
+        margin: 25px 10% 0 10%;
     }
     input::placeholder {
         color: #383737;
@@ -809,9 +793,7 @@ a:hover {
 */
     .dis-container {
         margin-top: 15px;
-        padding-bottom: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 20px 50px 20px;
         width: 100%;
         height: 400px;
     }
@@ -821,19 +803,14 @@ a:hover {
         width: 100%;
     }
     .dis-img {
-        margin-left: 20px;
-        margin-bottom: 20px;
+        margin: 0 0 20px 20px;
         padding: 0;
         float: left;
     }
     .dis-text {
         width: 70%;
         float: right;
-        padding-top: 50px;
-        padding-right: 15px
-    }
-    .display-divider {
-        bottom: 0;
+        padding: 50px 15px 0 0;
     }
     /* -- Footer
                             --
@@ -904,8 +881,7 @@ a:hover {
 --
     */
     .top-screen .title-text {
-        padding-top: 6px;
-        padding-left: 50px;
+        padding: 6px 0 0 50px;
     }
     /* -- Callout
                             --
@@ -917,8 +893,7 @@ a:hover {
     }
     .callout-text {
         font-size: 50px;
-        padding-right: 500px;
-        padding-top: 140px;
+        padding: 140px 500px 0 0;
     }
     /* --  Shop
 --
