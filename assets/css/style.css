@@ -159,10 +159,6 @@ a:hover {
     .small-menu .dropdown-menu .dropdown-item:hover {
         border-radius: 0px;
     }
-    .contact-menu-border {
-        border: solid 2px #defff2;
-        border-radius: 15px;
-    }
     /* -- Footer
 --
 -- 
@@ -192,7 +188,7 @@ a:hover {
 --
     */
     .callout-container {
-        height: 500px;
+        height: 499px;
         width: 100%;
     }
     .callout {
@@ -578,7 +574,7 @@ a:hover {
         padding-top: 0;
         top: -61.5px;
     }
-    /* -- Callout
+    /* -- Display
                                 --
                         -- 
                     -- 
@@ -911,14 +907,6 @@ a:hover {
         padding-top: 6px;
         padding-left: 50px;
     }
-    /* -- Navigation
-                            --
-                                -- 
---
-    */
-    .large-menu {
-        width: 47%;
-    }
     /* -- Callout
                             --
                     -- 
@@ -943,8 +931,6 @@ a:hover {
     }
     .shop-inline {
         display: inline-block;
-        width: fit-content;
-        height: fit-content;
     }
     .shop-container {
         margin: 30px 10px 20px 10px;
@@ -977,14 +963,6 @@ a:hover {
 }
 
 @media (min-width: 1400px) {
-    /* -- Navigation
---
--- 
---
-*/
-    .large-menu {
-        width: 40%;
-    }
     /* --  Shop
 --
 --
