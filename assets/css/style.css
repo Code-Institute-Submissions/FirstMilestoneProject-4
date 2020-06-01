@@ -126,7 +126,7 @@ a:hover {
         font-size: 35px;
         padding-top: 6px;
         padding-left: 10px;
-        margin-right: 0px;
+        margin: 0;
         display: block;
     }
     .top-screen .title-text a {
@@ -658,11 +658,6 @@ a:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media ( min-width: 768px) {
-    /* Title 
-    --
-    --
-    --
-    */
     /* -- Callout
                             --
     --                     
@@ -712,9 +707,6 @@ a:hover {
                             */
     .top-screen {
         height: 90px;
-        width: 100%;
-        margin: 0;
-        padding-top: 0;
     }
     /* -- Ti                    tle
 --                    
@@ -727,7 +719,6 @@ a:hover {
     .title-text {
         float: left;
         padding-left: 30px;
-        margin: 0;
     }
     .title-text a {
         font-size: 54px;
@@ -916,7 +907,8 @@ a:hover {
 -- 
 --
     */
-    .title-text {
+    .top-screen .title-text {
+        padding-top: 6px;
         padding-left: 50px;
     }
     /* -- Navigation
@@ -925,7 +917,6 @@ a:hover {
 --
     */
     .large-menu {
-        display: inline;
         width: 47%;
     }
     /* -- Callout
