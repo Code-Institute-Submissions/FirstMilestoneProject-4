@@ -39,6 +39,13 @@ Allows the user to request a cake already made or a completely custom one via th
     * This was used to find the code for the dropdown for larger devices
     * https://www.jqueryscript.net/menu/Simplest-Dropdown-Navigation-With-jQuery-CSS.html
 
+* PicResize 
+    * This was used to make images smaller for better positoning
+    * https://picresize.com/
+
+* Photo Enlarger 
+    * This was used to make pictures larger for better postioning
+    * https://www.photoenlarger.com/
 ## Testing 
 
 First i was solo testing making sure all the links worked all mages were correctly sixed and positioned, testing to make sure the forms wouldnt accept entries without all text filled and email requiring an email address
