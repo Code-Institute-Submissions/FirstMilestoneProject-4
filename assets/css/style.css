@@ -591,6 +591,24 @@
         .everyday {
             background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
         }
+        /* Shop 
+        --
+        --
+        --
+        */
+        .shop {
+            height: 2550px;
+        }
+        .shop-container {
+            width: 250px;
+            margin: 30px 15px 30px 15px;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
         /* -- Contact
 --
 -- 
@@ -668,15 +686,13 @@
 --
  -- 
 */
-        .shop {
-            height: 2550px;
+        .shop-container {
+            width: 300px;
         }
         .left {
-            float: left;
             margin-left: 75px;
         }
         .right {
-            float: right;
             margin-right: 75px;
         }
         /* Contact 
