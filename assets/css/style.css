@@ -1,958 +1,987 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
-
-/* -- Colours 
+    @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Bellota:wght@300;400;700&display=swap');
+    /* -- Colours 
 --
 -- 
 --
 */
-
-.defff2 {
-    color: #defff2;
-}
-
-.defff2-border {
-    border-color: #defff2;
-}
-
-.defff2-background {
-    background-color: #defff2;
-}
-
-.grey {
-    color: #383737;
-}
-
-.grey-border {
-    border-color: #383737;
-}
-
-.grey-background {
-    background-color: #383737;
-}
-
-.menu-item:hover {
-    background-color: #383737;
-}
-
-.btn:hover,
-.btn:active {
-    background-color: #383737;
-    color: #defff2;
-}
-
-.dropdown-menu .active {
-    background-color: #383737;
-    color: #DEFFF2;
-    border-color: #DEFFF2;
-}
-
-.dropdown-menu .dropdown-item {
-    color: #DEFFF2;
-}
-
-.dropdown-item:hover {
-    background-color: #DEFFF2;
-    color: #383737;
-}
-
-.large-menu-item:hover {
-    background-color: #383737;
-    border-color: #DEFFF2;
-    color: #DEFFF2;
-}
-
-a {
-    color: #DEFFF2
-}
-
-a:hover {
-    color: #defff2;
-}
-
-.large-menu .active {
-    border-color: #defff2;
-}
-
-.cake-dropdown .cake-dropdown-item li:hover {
-    background-color: #383737;
-    border-color: #DEFFF2;
-    color: #DEFFF2;
-}
-
-.dis-title {
-    color: #383737;
-}
-
-.dis-img-bday {
-    border-color: #383737;
-}
-
-.display-divider {
-    background-color: #383737;
-}
-
-.shop-title {
-    background-color: #383737;
-    color: #defff2;
-}
-
-.shop-container {
-    background-color: #383737;
-    border-color: #383737;
-}
-
-.shop-item {
-    border-color: #383737;
-}
-
-.item-title {
-    color: #defff2;
-}
-
-@media (min-width: 0px) {
-    /* -- Header
---
--- 
---
-    */
-    .top-screen {
-        width: 100%;
-        height: 50px;
-        margin: 0;
-        padding: 0;
+    
+    .defff2 {
+        color: #defff2;
     }
-    .top-screen .title {
-        font-family: 'Bellota', cursive;
-        font-size: 35px;
-        padding-top: 6px;
-        padding-left: 10px;
-        margin: 0;
-        display: block;
+    
+    .defff2-border {
+        border-color: #defff2;
     }
-    .top-screen .title-text a {
-        text-decoration: none;
+    
+    .defff2-background {
+        background-color: #defff2;
     }
-    /* -- Navigation
---
--- 
---
-    */
-    .large-menu {
-        display: none;
+    
+    .grey {
+        color: #383737;
     }
-    .btn {
-        border: none;
-        right: 10px;
-        top: -49px;
-        position: absolute;
-        font-size: 22px;
+    
+    .grey-border {
+        border-color: #383737;
     }
-    .dropdown-item {
-        font-family: 'Bellota Text', cursive;
+    
+    .grey-background {
+        background-color: #383737;
     }
+    
+    .menu-item:hover {
+        background-color: #383737;
+    }
+    
+    .btn:hover,
+    .btn:active {
+        background-color: #383737;
+        color: #defff2;
+    }
+    
     .dropdown-menu .active {
-        border-bottom: 2px;
-        border-style: solid;
-        border-radius: 20px;
-        text-decoration: none;
+        background-color: #383737;
+        color: #DEFFF2;
+        border-color: #DEFFF2;
     }
-    /* -- Footer
---
--- 
---
-    */
-    .footer {
-        width: 100%;
-        height: 40px;
-        bottom: 0;
+    
+    .dropdown-menu .dropdown-item {
+        color: #DEFFF2;
     }
-    .social-networks {
-        font-size: 20px;
-        padding: 5px 0 5px 0;
+    
+    .dropdown-item:hover {
+        background-color: #DEFFF2;
+        color: #383737;
     }
-    .social-icons {
-        display: inline;
-        padding-left: 21%;
+    
+    .large-menu-item:hover {
+        background-color: #383737;
+        border-color: #DEFFF2;
+        color: #DEFFF2;
     }
-    .social-networks ul {
-        padding: 0;
-        margin: 0;
+    
+    a {
+        color: #DEFFF2
     }
-    /* -- Callout
---
--- 
---
-    */
-    .callout-container {
-        height: 499px;
-        width: 100%;
+    
+    a:hover {
+        color: #defff2;
     }
-    .callout {
-        background: url("../images/rose-petals-flower-design.jpg") no-repeat center -100px;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
+    
+    .large-menu .active {
+        border-color: #defff2;
     }
-    .callout-text {
-        font-size: 30px;
-        text-align: center;
-        font-family: 'Bellota Text', cursive;
-        padding-top: 75px;
+    
+    .cake-dropdown .cake-dropdown-item li:hover {
+        background-color: #383737;
+        border-color: #DEFFF2;
+        color: #DEFFF2;
     }
-    /* -- Initial Display
---
--- 
---
-    */
-    .inital-display {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .display-divider {
-        width: 150px;
-        height: 5px;
-        border: none;
-    }
+    
     .dis-title {
-        padding: 20px 0 10px 0;
-        text-align: center;
-        font-family: 'Bellota', cursive;
-        font-size: 25px;
+        color: #383737;
     }
-    .dis-container {
-        display: block;
-        margin: auto;
-        padding: 10px 0 10px 0;
-        height: auto;
+    
+    .dis-img-bday {
+        border-color: #383737;
     }
-    .dis-img {
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 50%;
-        width: 130px;
-        height: 130px;
-        display: block;
-        margin: auto;
+    
+    .display-divider {
+        background-color: #383737;
     }
-    .dis-text {
-        padding: 10px 20px 20px 20px;
-        font-family: 'Bellota Text', cursive;
-    }
-    .bday {
-        background: url("../images/Birthday/birth-150.jpg") no-repeat -20px -20px;
-    }
-    .cupcake {
-        background: url("../images/Cupcake/cupcake-150.jpg") no-repeat center center;
-    }
-    .season {
-        background: url("../images/Season/seasonal-150.jpg") no-repeat center center;
-        overflow: hidden;
-    }
-    .everyday {
-        background: url("../images/Everyday/everyday-150.jpg") no-repeat center center;
-    }
-    /* -- Shop
---
--- 
---
-    */
-    .shop {
-        display: block;
-        height: auto;
-        width: 100%;
-    }
-    .shop-container {
-        width: 300px;
-        height: 350px;
-        border: solid 2px;
-        border-radius: 15px;
-        display: block;
-        overflow: hidden;
-        margin: 30px auto 30px auto;
-    }
+    
     .shop-title {
-        text-align: center;
-        font-family: 'Bellota', cursive;
-        font-size: 30px;
-        border: solid 2px;
-        border-radius: 15px;
-        width: 80%;
-        margin: 30px auto 0 auto;
+        background-color: #383737;
+        color: #defff2;
     }
+    
+    .shop-container {
+        background-color: #383737;
+        border-color: #383737;
+    }
+    
     .shop-item {
-        height: 300px;
-        border-bottom: solid 2px;
+        border-color: #383737;
     }
+    
     .item-title {
-        text-align: center;
-        font-size: 25px;
-        padding-top: 5px;
-        margin-bottom: 5px;
-        font-family: 'Bellota', cursive;
+        color: #defff2;
     }
-    /* Birthday Shop
+    
+    @media (min-width: 0px) {
+        /* -- Header
+--
+-- 
+--
+    */
+        .top-screen {
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            padding: 0;
+        }
+        .top-screen .title {
+            font-family: 'Bellota', cursive;
+            font-size: 35px;
+            padding-top: 6px;
+            padding-left: 10px;
+            margin: 0;
+            display: block;
+        }
+        .top-screen .title-text a {
+            text-decoration: none;
+        }
+        /* -- Navigation
+--
+-- 
+--
+    */
+        .large-menu {
+            display: none;
+        }
+        .btn {
+            border: none;
+            right: 10px;
+            top: -49px;
+            position: absolute;
+            font-size: 22px;
+        }
+        .dropdown-item {
+            font-family: 'Bellota Text', cursive;
+        }
+        .dropdown-menu .active {
+            border-bottom: 2px;
+            border-style: solid;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        /* -- Footer
+--
+-- 
+--
+    */
+        .footer {
+            width: 100%;
+            height: 40px;
+            bottom: 0;
+        }
+        .social-networks {
+            font-size: 20px;
+            padding: 5px 0 5px 0;
+        }
+        .social-icons {
+            display: inline;
+            padding-left: 21%;
+        }
+        .social-networks ul {
+            padding: 0;
+            margin: 0;
+        }
+        /* -- Callout
+--
+-- 
+--
+    */
+        .callout-container {
+            height: 499px;
+            width: 100%;
+        }
+        .callout {
+            background: url("../images/rose-petals-flower-design.jpg") no-repeat center -100px;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .callout-text {
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Bellota Text', cursive;
+            padding-top: 75px;
+        }
+        /* -- Initial Display
+--
+-- 
+--
+    */
+        .inital-display {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .display-divider {
+            width: 150px;
+            height: 5px;
+            border: none;
+        }
+        .dis-title {
+            padding: 20px 0 10px 0;
+            text-align: center;
+            font-family: 'Bellota', cursive;
+            font-size: 25px;
+        }
+        .dis-container {
+            display: block;
+            margin: auto;
+            padding: 10px 0 10px 0;
+            height: auto;
+        }
+        .dis-img {
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            display: block;
+            margin: auto;
+        }
+        .dis-text {
+            padding: 10px 20px 20px 20px;
+            font-family: 'Bellota Text', cursive;
+        }
+        .bday {
+            background: url("../images/Birthday/birth-150.jpg") no-repeat -20px -20px;
+        }
+        .cupcake {
+            background: url("../images/Cupcake/cupcake-150.jpg") no-repeat center center;
+        }
+        .season {
+            background: url("../images/Season/seasonal-150.jpg") no-repeat center center;
+            overflow: hidden;
+        }
+        .everyday {
+            background: url("../images/Everyday/everyday-150.jpg") no-repeat center center;
+        }
+        /* -- Shop
+--
+-- 
+--
+    */
+        .shop {
+            display: block;
+            height: auto;
+            width: 100%;
+        }
+        .shop-container {
+            width: 300px;
+            height: 350px;
+            border: solid 2px;
+            border-radius: 15px;
+            display: block;
+            overflow: hidden;
+            margin: 30px auto 30px auto;
+        }
+        .shop-title {
+            text-align: center;
+            font-family: 'Bellota', cursive;
+            font-size: 30px;
+            border: solid 2px;
+            border-radius: 15px;
+            width: 80%;
+            margin: 30px auto 0 auto;
+        }
+        .shop-item {
+            height: 300px;
+            border-bottom: solid 2px;
+        }
+        .item-title {
+            text-align: center;
+            font-size: 25px;
+            padding-top: 5px;
+            margin-bottom: 5px;
+            font-family: 'Bellota', cursive;
+        }
+        /* Birthday Shop
                     --
                     --
                     --
                     */
-    .birthday-img-1 {
-        background: url("../images/Birthday/birth-1-300.jpg") no-repeat center center;
-    }
-    .birthday-img-2 {
-        background: url("../images/Birthday/birth-2-300.jpg") no-repeat center center;
-    }
-    .birthday-img-3 {
-        background: url("../images/Birthday/birth-3-300.jpg") no-repeat center center;
-    }
-    .birthday-img-4 {
-        background: url("../images/Birthday/birth-4-300.jpg") no-repeat center center;
-    }
-    .birthday-img-5 {
-        background: url("../images/Birthday/birth-5-300.jpg") no-repeat center center;
-    }
-    .birthday-img-6 {
-        background: url("../images/Birthday/birth-6-300.jpg") no-repeat center center;
-    }
-    .birthday-img-7 {
-        background: url("../images/Birthday/birth-7-300.jpg") no-repeat center center;
-    }
-    .birthday-img-8 {
-        background: url("../images/Birthday/birth-8-300.jpg") no-repeat center center;
-    }
-    .birthday-img-9 {
-        background: url("../images/Birthday/birth-9-300.jpg") no-repeat center center;
-    }
-    .birthday-img-10 {
-        background: url("../images/Birthday/birth-10-300.jpg") no-repeat center center;
-    }
-    .birthday-img-11 {
-        background: url("../images/Birthday/birth-11-300.jpg") no-repeat center center;
-    }
-    .birthday-img-12 {
-        background: url("../images/Birthday/birth-12-300.jpg") no-repeat center center;
-    }
-    /* Cupcake Shop 
+        .birthday-img-1 {
+            background: url("../images/Birthday/birth-1-300.jpg") no-repeat center center;
+        }
+        .birthday-img-2 {
+            background: url("../images/Birthday/birth-2-300.jpg") no-repeat center center;
+        }
+        .birthday-img-3 {
+            background: url("../images/Birthday/birth-3-300.jpg") no-repeat center center;
+        }
+        .birthday-img-4 {
+            background: url("../images/Birthday/birth-4-300.jpg") no-repeat center center;
+        }
+        .birthday-img-5 {
+            background: url("../images/Birthday/birth-5-300.jpg") no-repeat center center;
+        }
+        .birthday-img-6 {
+            background: url("../images/Birthday/birth-6-300.jpg") no-repeat center center;
+        }
+        .birthday-img-7 {
+            background: url("../images/Birthday/birth-7-300.jpg") no-repeat center center;
+        }
+        .birthday-img-8 {
+            background: url("../images/Birthday/birth-8-300.jpg") no-repeat center center;
+        }
+        .birthday-img-9 {
+            background: url("../images/Birthday/birth-9-300.jpg") no-repeat center center;
+        }
+        .birthday-img-10 {
+            background: url("../images/Birthday/birth-10-300.jpg") no-repeat center center;
+        }
+        .birthday-img-11 {
+            background: url("../images/Birthday/birth-11-300.jpg") no-repeat center center;
+        }
+        .birthday-img-12 {
+            background: url("../images/Birthday/birth-12-300.jpg") no-repeat center center;
+        }
+        /* Cupcake Shop 
                     --
                     --
                     --
                     */
-    .cupcake-img-1 {
-        background: url("../images/Cupcake/cupcake-1.jpg") no-repeat center center;
-    }
-    .cupcake-img-2 {
-        background: url("../images/Cupcake/cupcake-2.jpg") no-repeat center center;
-    }
-    .cupcake-img-3 {
-        background: url("../images/Cupcake/cupcake-3.jpg") no-repeat center center;
-    }
-    .cupcake-img-4 {
-        background: url("../images/Cupcake/cupcake-4.jpg") no-repeat center center;
-    }
-    .cupcake-img-5 {
-        background: url("../images/Cupcake/cupcake-5.jpg") no-repeat center center;
-    }
-    .cupcake-img-6 {
-        background: url("../images/Cupcake/cupcake-6.jpg") no-repeat center center;
-    }
-    .cupcake-img-7 {
-        background: url("../images/Cupcake/cupcake-7.jpg") no-repeat center center;
-    }
-    .cupcake-img-8 {
-        background: url("../images/Cupcake/cupcake-8.jpg") no-repeat center center;
-    }
-    .cupcake-img-9 {
-        background: url("../images/Cupcake/cupcake-9.jpg") no-repeat center center;
-    }
-    .cupcake-img-10 {
-        background: url("../images/Cupcake/cupcake-10.jpg") no-repeat center center;
-    }
-    .cupcake-img-11 {
-        background: url("../images/Cupcake/cupcake-11.jpg") no-repeat center center;
-    }
-    .cupcake-img-12 {
-        background: url("../images/Cupcake/cupcake-12.jpg") no-repeat center center;
-    }
-    /* Special Occasions 
+        .cupcake-img-1 {
+            background: url("../images/Cupcake/cupcake-1.jpg") no-repeat center center;
+        }
+        .cupcake-img-2 {
+            background: url("../images/Cupcake/cupcake-2.jpg") no-repeat center center;
+        }
+        .cupcake-img-3 {
+            background: url("../images/Cupcake/cupcake-3.jpg") no-repeat center center;
+        }
+        .cupcake-img-4 {
+            background: url("../images/Cupcake/cupcake-4.jpg") no-repeat center center;
+        }
+        .cupcake-img-5 {
+            background: url("../images/Cupcake/cupcake-5.jpg") no-repeat center center;
+        }
+        .cupcake-img-6 {
+            background: url("../images/Cupcake/cupcake-6.jpg") no-repeat center center;
+        }
+        .cupcake-img-7 {
+            background: url("../images/Cupcake/cupcake-7.jpg") no-repeat center center;
+        }
+        .cupcake-img-8 {
+            background: url("../images/Cupcake/cupcake-8.jpg") no-repeat center center;
+        }
+        .cupcake-img-9 {
+            background: url("../images/Cupcake/cupcake-9.jpg") no-repeat center center;
+        }
+        .cupcake-img-10 {
+            background: url("../images/Cupcake/cupcake-10.jpg") no-repeat center center;
+        }
+        .cupcake-img-11 {
+            background: url("../images/Cupcake/cupcake-11.jpg") no-repeat center center;
+        }
+        .cupcake-img-12 {
+            background: url("../images/Cupcake/cupcake-12.jpg") no-repeat center center;
+        }
+        /* Special Occasions 
                     --
                     --
                     --
                     */
-    .special-img-1 {
-        background: url("../images/Season/seasonal-1.jpg") no-repeat center center;
-    }
-    .special-img-2 {
-        background: url("../images/Season/seasonal-2.jpg") no-repeat center center;
-    }
-    .special-img-3 {
-        background: url("../images/Season/seasonal-3.jpg") no-repeat center center;
-    }
-    .special-img-4 {
-        background: url("../images/Season/seasonal-4.jpg") no-repeat center center;
-    }
-    .special-img-5 {
-        background: url("../images/Season/seasonal-5.jpg") no-repeat center center;
-    }
-    .special-img-6 {
-        background: url("../images/Season/seasonal-6.jpg") no-repeat center center;
-    }
-    .special-img-7 {
-        background: url("../images/Season/seasonal-7.jpg") no-repeat center center;
-    }
-    .special-img-8 {
-        background: url("../images/Season/seasonal-8.jpg") no-repeat center center;
-    }
-    .special-img-9 {
-        background: url("../images/Season/seasonal-9.jpg") no-repeat center center;
-    }
-    .special-img-10 {
-        background: url("../images/Season/seasonal-10.jpg") no-repeat center center;
-    }
-    .special-img-11 {
-        background: url("../images/Season/seasonal-11.jpg") no-repeat center center;
-    }
-    .special-img-12 {
-        background: url("../images/Season/seasonal-12.jpg") no-repeat center center;
-    }
-    /* Everyday Shop 
+        .special-img-1 {
+            background: url("../images/Season/seasonal-1.jpg") no-repeat center center;
+        }
+        .special-img-2 {
+            background: url("../images/Season/seasonal-2.jpg") no-repeat center center;
+        }
+        .special-img-3 {
+            background: url("../images/Season/seasonal-3.jpg") no-repeat center center;
+        }
+        .special-img-4 {
+            background: url("../images/Season/seasonal-4.jpg") no-repeat center center;
+        }
+        .special-img-5 {
+            background: url("../images/Season/seasonal-5.jpg") no-repeat center center;
+        }
+        .special-img-6 {
+            background: url("../images/Season/seasonal-6.jpg") no-repeat center center;
+        }
+        .special-img-7 {
+            background: url("../images/Season/seasonal-7.jpg") no-repeat center center;
+        }
+        .special-img-8 {
+            background: url("../images/Season/seasonal-8.jpg") no-repeat center center;
+        }
+        .special-img-9 {
+            background: url("../images/Season/seasonal-9.jpg") no-repeat center center;
+        }
+        .special-img-10 {
+            background: url("../images/Season/seasonal-10.jpg") no-repeat center center;
+        }
+        .special-img-11 {
+            background: url("../images/Season/seasonal-11.jpg") no-repeat center center;
+        }
+        .special-img-12 {
+            background: url("../images/Season/seasonal-12.jpg") no-repeat center center;
+        }
+        /* Everyday Shop 
                     --
                     --
                     --
                     */
-    .everyday-img-1 {
-        background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
-    }
-    .everyday-img-2 {
-        background: url("../images/Everyday/everyday-2.jpg") no-repeat center center;
-    }
-    .everyday-img-3 {
-        background: url("../images/Everyday/everyday-3.jpg") no-repeat center center;
-    }
-    .everyday-img-4 {
-        background: url("../images/Everyday/everyday-4.jpg") no-repeat center center;
-    }
-    .everyday-img-5 {
-        background: url("../images/Everyday/everyday-5.jpg") no-repeat center center;
-    }
-    .everyday-img-6 {
-        background: url("../images/Everyday/everyday-6.jpg") no-repeat center center;
-    }
-    .everyday-img-7 {
-        background: url("../images/Everyday/everyday-7.jpg") no-repeat center center;
-    }
-    .everyday-img-8 {
-        background: url("../images/Everyday/everyday-8.jpg") no-repeat center center;
-    }
-    .everyday-img-9 {
-        background: url("../images/Everyday/everyday-9.jpg") no-repeat center center;
-    }
-    .everyday-img-10 {
-        background: url("../images/Everyday/everyday-10.jpg") no-repeat center center;
-    }
-    .everyday-img-11 {
-        background: url("../images/Everyday/everyday-11.jpg") no-repeat center center;
-    }
-    .everyday-img-12 {
-        background: url("../images/Everyday/everyday-12.jpg") no-repeat center center;
-    }
-    /* -- Contact
+        .everyday-img-1 {
+            background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
+        }
+        .everyday-img-2 {
+            background: url("../images/Everyday/everyday-2.jpg") no-repeat center center;
+        }
+        .everyday-img-3 {
+            background: url("../images/Everyday/everyday-3.jpg") no-repeat center center;
+        }
+        .everyday-img-4 {
+            background: url("../images/Everyday/everyday-4.jpg") no-repeat center center;
+        }
+        .everyday-img-5 {
+            background: url("../images/Everyday/everyday-5.jpg") no-repeat center center;
+        }
+        .everyday-img-6 {
+            background: url("../images/Everyday/everyday-6.jpg") no-repeat center center;
+        }
+        .everyday-img-7 {
+            background: url("../images/Everyday/everyday-7.jpg") no-repeat center center;
+        }
+        .everyday-img-8 {
+            background: url("../images/Everyday/everyday-8.jpg") no-repeat center center;
+        }
+        .everyday-img-9 {
+            background: url("../images/Everyday/everyday-9.jpg") no-repeat center center;
+        }
+        .everyday-img-10 {
+            background: url("../images/Everyday/everyday-10.jpg") no-repeat center center;
+        }
+        .everyday-img-11 {
+            background: url("../images/Everyday/everyday-11.jpg") no-repeat center center;
+        }
+        .everyday-img-12 {
+            background: url("../images/Everyday/everyday-12.jpg") no-repeat center center;
+        }
+        /* -- Contact
 --
 -- 
 -- 
 */
-    .contact-sec {
-        text-align: center;
-        padding: 20px 0 15px 0;
-    }
-    .title {
-        font-size: 30px;
-        font-family: 'Bellota', cursive;
-    }
-    .call-to-action {
-        padding-top: 20px;
-        font-size: 25px;
-        font-family: 'Bellota Text', cursive;
-    }
-    input {
-        font-size: 20px;
-        font-family: 'Bellota Text', cursive;
-        width: 80%;
-        border: solid #383737 6px;
-        padding-left: 15px;
-        height: 50px;
-        border-radius: 20px;
-        color: #383737;
-        margin: 25px 10% 0 10%;
-    }
-    input::placeholder {
-        color: #383737;
-    }
-    #message {
-        height: 240px;
-    }
-    /* Story 
+        .contact-sec {
+            text-align: center;
+            padding: 20px 0 15px 0;
+            height: 800px;
+        }
+        .title {
+            font-size: 30px;
+            font-family: 'Bellota', cursive;
+        }
+        .call-to-action {
+            padding-top: 20px;
+            font-size: 25px;
+            font-family: 'Bellota Text', cursive;
+        }
+        input {
+            font-size: 20px;
+            font-family: 'Bellota Text', cursive;
+            width: 80%;
+            border: solid #383737 6px;
+            padding-left: 15px;
+            height: 50px;
+            border-radius: 20px;
+            color: #383737;
+            margin: 25px 10% 0 10%;
+        }
+        input::placeholder {
+            color: #383737;
+        }
+        #message {
+            height: 240px;
+        }
+        #submit {
+            background-color: #383737;
+            color: #defff2;
+            font-size: 25px;
+        }
+        /* Story 
     --
     --
     --
     */
-    .story-callout {
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
+        .story-callout {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        .story-1 {
+            background: url("../images/family.jpg") no-repeat -105px center;
+        }
+        .story-1-text {
+            padding-left: 200px;
+        }
+        .story-2 {
+            background: url("../images/balloons-600.jpg") no-repeat center center;
+        }
+        .story-2-text {
+            background-color: rgba(0, 0, 0, 0.3);
+            height: 100%;
+        }
+        .story-3 {
+            background: url("../images/handshake.jpg") no-repeat center center;
+        }
+        .story-3-text {
+            padding-top: 40px;
+        }
+        .story-text {
+            font-size: 20px;
+            font-family: 'Bellota Text', cursive;
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+        }
     }
-    .story-1 {
-        background: url("../images/family.jpg") no-repeat -105px center;
-    }
-    .story-1-text {
-        padding-left: 200px;
-    }
-    .story-2 {
-        background: url("../images/balloons-600.jpg") no-repeat center center;
-    }
-    .story-3 {
-        background: url("../images/handshake.jpg") no-repeat center center;
-    }
-    .story-3-text {
-        padding-top: 40px;
-    }
-    .story-text {
-        font-size: 20px;
-        font-family: 'Bellota Text', cursive;
-        padding: 10px 10px 10px 10px;
-        text-align: center;
-    }
-}
-
-
-/* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
+    /* -- Media -- Devices sizes found from https: //getbootstrap.com/docs/4.1/layout/overview/
 -- */
-
-
-/* Small devices (landscape phones,
+    /* Small devices (landscape phones,
 576px and up)*/
-
-@media (min-width: 562px) {
-    /* -- Title
+    
+    @media (min-width: 562px) {
+        /* -- Title
                                 --
     -- 
 --
 */
-    .top-screen {
-        height: 75px;
-    }
-    .top-screen .title {
-        padding: 8.5px 0 5.5px 25px;
-    }
-    .top-screen .title-text {
-        font-size: 45px;
-        padding-top: 2px;
-    }
-    /* -- Navigation
+        .top-screen {
+            height: 75px;
+        }
+        .top-screen .title {
+            padding: 8.5px 0 5.5px 25px;
+        }
+        .top-screen .title-text {
+            font-size: 45px;
+            padding-top: 2px;
+        }
+        /* -- Navigation
                                 --
     -- 
 --
 */
-    .btn {
-        right: 18px;
-        font-size: 30px;
-        padding-top: 0;
-        top: -61.5px;
-    }
-    /* -- Display
+        .btn {
+            right: 18px;
+            font-size: 30px;
+            padding-top: 0;
+            top: -61.5px;
+        }
+        /* -- Display
                                 --
                         -- 
                     -- 
                             */
-    .dis-title {
-        font-size: 35px;
-    }
-    .dis-img {
-        width: 250px;
-        height: 250px;
-    }
-    .dis-text {
-        font-size: 20px;
-        padding: 20px 20px 20px 20px;
-    }
-    .bday {
-        background: url("../images/Birthday/birth-2-300.jpg") no-repeat center center;
-    }
-    .cupcake {
-        background: url("../images/Cupcake/cupcake-1.jpg") no-repeat center center;
-    }
-    .season {
-        background: url("../images/Season/seasonal-6.jpg") no-repeat center center;
-    }
-    .everyday {
-        background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
-    }
-    /* -- Contact
+        .dis-title {
+            font-size: 35px;
+        }
+        .dis-img {
+            width: 250px;
+            height: 250px;
+        }
+        .dis-text {
+            font-size: 20px;
+            padding: 20px 20px 20px 20px;
+        }
+        .bday {
+            background: url("../images/Birthday/birth-2-300.jpg") no-repeat center center;
+        }
+        .cupcake {
+            background: url("../images/Cupcake/cupcake-1.jpg") no-repeat center center;
+        }
+        .season {
+            background: url("../images/Season/seasonal-6.jpg") no-repeat center center;
+        }
+        .everyday {
+            background: url("../images/Everyday/everyday-1.jpg") no-repeat center center;
+        }
+        /* -- Contact
 --
 -- 
 -- 
 */
-    .contact-sec {
-        height: 1190px;
-        padding-top: 75px
-    }
-    .title {
-        font-size: 40px
-    }
-    .call-to-action {
-        font-size: 30px;
-        padding-top: 100px;
-    }
-    .contact-form {
-        padding-top: 100px;
-    }
-    input {
-        height: 100px;
-        font-size: 30px;
-    }
-    /* Story 
+        .contact-sec {
+            height: 1190px;
+            padding-top: 75px
+        }
+        .title {
+            font-size: 40px
+        }
+        .call-to-action {
+            font-size: 30px;
+            padding-top: 100px;
+        }
+        .contact-form {
+            padding-top: 100px;
+        }
+        input {
+            height: 100px;
+            font-size: 30px;
+        }
+        /* Story 
     --
     --
     --
     */
-    .story-1 {
-        background: url("../images/family-800.jpg") no-repeat center center;
-    }
-    .story-2 {
-        background: url("../images/balloons-800.jpg") no-repeat center center;
-    }
-    .story-text {
-        font-size: 25px;
-        padding: 20px 20px 20px 20px;
-    }
-    /* -- Footer
+        .story-1 {
+            background: url("../images/family-800.jpg") no-repeat center center;
+        }
+        .story-2 {
+            background: url("../images/balloons-800.jpg") no-repeat center center;
+        }
+        .story-text {
+            font-size: 25px;
+            padding: 20px 20px 20px 20px;
+        }
+        /* -- Footer
 --
 -- 
 -- 
 */
-    .social-icons {
-        padding-left: 22.5%;
+        .social-icons {
+            padding-left: 22.5%;
+        }
     }
-}
-
-
-/* Medium devices (tablets, 768px and up) */
-
-@media ( min-width: 768px) {
-    /* -- Callout
+    /* Medium devices (tablets, 768px and up) */
+    
+    @media ( min-width: 768px) {
+        /* -- Callout
                             --
     --                     
                                 -- 
                             */
-    .callout {
-        background: url("../images/rose-petals-flower-design.1001px.jpg") no-repeat center -130px;
-    }
-    .callout-text {
-        font-size: 40px;
-    }
-    /* -- Display
+        .callout {
+            background: url("../images/rose-petals-flower-design.1001px.jpg") no-repeat center -130px;
+        }
+        .callout-text {
+            font-size: 40px;
+        }
+        /* -- Display
 --
 --
  -- 
 */
-    .dis-title {
-        font-size: 45px;
-    }
-    .dis-text {
-        font-size: 30px;
-    }
-    /* --  Shop
+        .dis-title {
+            font-size: 45px;
+        }
+        .dis-text {
+            font-size: 30px;
+        }
+        /* --  Shop
 --
 --
  -- 
 */
-    .shop {
-        height: 2550px;
+        .shop {
+            height: 2550px;
+        }
+        .left {
+            float: left;
+            margin-left: 75px;
+        }
+        .right {
+            float: right;
+            margin-right: 75px;
+        }
+        /* Contact 
+    --
+    --
+    --
+    */
+        #submit {
+            font-size: 40px;
+        }
+        /* Story 
+    --
+    --
+    --
+    */
+        .story-1 {
+            background: url("../images/family-1200.jpg")no-repeat center -90px;
+        }
+        .story-2 {
+            background: url("../images/balloons.jpg") no-repeat center center;
+        }
+        .story-3 {
+            background: url("../images/handshake-1500.jpg") no-repeat center center;
+        }
     }
-    .left {
-        float: left;
-        margin-left: 75px;
-    }
-    .right {
-        float: right;
-        margin-right: 75px;
-    }
-}
-
-
-/*Large devices (desktops, 992px and up) 
+    /*Large devices (desktops, 992px and up) 
 */
-
-@media ( min-width: 992px) {
-    /* -                    - Header
+    
+    @media ( min-width: 992px) {
+        /* -                    - Header
     --                    
 --                     
                             -- 
                             */
-    .top-screen {
-        height: 90px;
-    }
-    /* -- Ti                    tle
+        .top-screen {
+            height: 90px;
+        }
+        /* -- Ti                    tle
 --                    
                                 -- 
                                 --
 */
-    .top-screen .title {
-        padding-top: 5px;
-    }
-    .title-text {
-        float: left;
-        padding-left: 30px;
-    }
-    .title-text a {
-        font-size: 54px;
-    }
-    /* -- Navigation
+        .top-screen .title {
+            padding-top: 5px;
+        }
+        .title-text {
+            float: left;
+            padding-left: 30px;
+        }
+        .title-text a {
+            font-size: 54px;
+        }
+        /* -- Navigation
                                 --
                         -- 
                     --
                             */
-    .small-menu {
-        display: none;
-    }
-    .large-menu {
-        display: inline;
-        float: right;
-    }
-    .large-menu-item {
-        display: block;
-        float: left;
-        margin-right: 30px;
-        padding: 2px 4px 2px 4px;
-    }
-    .large-menu-item a,
-    .large-menu-item {
-        text-decoration: none;
-        font-family: 'Bellota Text', cursive;
-        font-size: 20px;
-    }
-    .large-menu-item:hover {
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 20px;
-    }
-    .active {
-        border: 2px solid;
-        border-radius: 20px;
-    }
-    .large-menu .large-menu-list .home {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    /* -- Nav Icons
+        .small-menu {
+            display: none;
+        }
+        .large-menu {
+            display: inline;
+            float: right;
+        }
+        .large-menu-item {
+            display: block;
+            float: left;
+            margin-right: 30px;
+            padding: 2px 4px 2px 4px;
+        }
+        .large-menu-item a,
+        .large-menu-item {
+            text-decoration: none;
+            font-family: 'Bellota Text', cursive;
+            font-size: 20px;
+        }
+        .large-menu-item:hover {
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 20px;
+        }
+        .active {
+            border: 2px solid;
+            border-radius: 20px;
+        }
+        .large-menu .large-menu-list .home {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        /* -- Nav Icons
                                 --
                     -- 
                                 --
                                 */
-    .home-align {
-        padding: 0 14.595px 0 14.595px;
-    }
-    .cake-align {
-        padding: 0 46.635px 0 46.635px;
-    }
-    .book-align {
-        padding: 0 33.82px 0 33.82px;
-    }
-    .phone-align {
-        padding: 0 39.42px 0 39.42px;
-    }
-    /* -- Dropdown
+        .home-align {
+            padding: 0 14.595px 0 14.595px;
+        }
+        .cake-align {
+            padding: 0 46.635px 0 46.635px;
+        }
+        .book-align {
+            padding: 0 33.82px 0 33.82px;
+        }
+        .phone-align {
+            padding: 0 39.42px 0 39.42px;
+        }
+        /* -- Dropdown
      --                   
     --                     
 --                    
                             */
-    .cake-dropdown {
-        position: absolute;
-        padding: 5px 0 5px 0;
-        margin: 5px 0 0 0;
-        height: 264px;
-        width: 200px;
-        display: none;
-    }
-    .large-menu .cake-dropdown-item li {
-        text-decoration: none;
-        font-family: 'Bellota Text', cursive;
-        font-size: 20px;
-        width: 180px;
-        padding: 10px 10px 10px 10px;
-        margin: 10px 10px 10px 10px;
-        height: fit-content;
-    }
-    .cake-dropdown-item li {
-        list-style-type: none;
-    }
-    .cake-dropdown .cake-dropdown-item li:hover {
-        border: 1px solid;
-        border-radius: 20px;
-    }
-    /* -- Di                    splay
+        .cake-dropdown {
+            position: absolute;
+            padding: 5px 0 5px 0;
+            margin: 5px 0 0 0;
+            height: 264px;
+            width: 200px;
+            display: none;
+        }
+        .large-menu .cake-dropdown-item li {
+            text-decoration: none;
+            font-family: 'Bellota Text', cursive;
+            font-size: 20px;
+            width: 180px;
+            padding: 10px 10px 10px 10px;
+            margin: 10px 10px 10px 10px;
+            height: fit-content;
+        }
+        .cake-dropdown-item li {
+            list-style-type: none;
+        }
+        .cake-dropdown .cake-dropdown-item li:hover {
+            border: 1px solid;
+            border-radius: 20px;
+        }
+        /* -- Di                    splay
 --                    
     --                     
     --                    
 */
-    .dis-container {
-        margin-top: 15px;
-        padding: 0 20px 50px 20px;
-        width: 100%;
-        height: 400px;
-    }
-    .dis-title {
-        text-align: center;
-        padding-top: 25px;
-        width: 100%;
-    }
-    .dis-img {
-        margin: 0 0 20px 20px;
-        padding: 0;
-        float: left;
-    }
-    .dis-text {
-        width: 70%;
-        float: right;
-        padding: 50px 15px 0 0;
-    }
-    /* -- Footer
+        .dis-container {
+            margin-top: 15px;
+            padding: 0 20px 50px 20px;
+            width: 100%;
+            height: 400px;
+        }
+        .dis-title {
+            text-align: center;
+            padding-top: 25px;
+            width: 100%;
+        }
+        .dis-img {
+            margin: 0 0 20px 20px;
+            padding: 0;
+            float: left;
+        }
+        .dis-text {
+            width: 70%;
+            float: right;
+            padding: 50px 15px 0 0;
+        }
+        /* -- Footer
                             --
                             -- 
                         --
                         */
-    .social-icons {
-        display: inline;
-        padding-left: 23%;
-    }
-    /* -- Callout
+        .social-icons {
+            display: inline;
+            padding-left: 23%;
+        }
+        /* -- Callout
 -
 
 -
 -- 
 --
 */
-    .callout {
-        background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
-    }
-    /* --  Shop
+        .callout {
+            background: url("../images/rose-petals-flower-design.1201px.jpg") no-repeat center -250px;
+        }
+        .callout-text {
+            font-size: 45px;
+        }
+        .callout .callout-text {
+            text-align: unset;
+            padding: 160px 0 0 80px;
+        }
+        /* --  Shop
 --
 --
  -- 
 */
-    .shop-title {
-        font-size: 40px;
-    }
-    .item-title {
-        font-size: 27px;
-        padding-top: 2px;
-    }
-    .left {
-        margin-left: 150px;
-    }
-    .right {
-        margin-right: 150px;
-    }
-    /* Story 
+        .shop-title {
+            font-size: 40px;
+        }
+        .item-title {
+            font-size: 27px;
+            padding-top: 2px;
+        }
+        .left {
+            margin-left: 150px;
+        }
+        .right {
+            margin-right: 150px;
+        }
+        /* Story 
     --
     --
     --
     */
-    .story-1 {
-        background: url("../images/family-1200.jpg")no-repeat center -90px;
+        .story-1 {
+            background: url("../images/family-1200.jpg")no-repeat center -90px;
+        }
+        .story-2 {
+            background: url("../images/balloons.jpg") no-repeat center center;
+        }
+        .story-3 {
+            background: url("../images/handshake-1500.jpg") no-repeat center center;
+        }
+        .story-3-text {
+            padding-top: 25px;
+        }
+        .story-3 br {
+            display: none;
+        }
     }
-    .story-2 {
-        background: url("../images/balloons.jpg") no-repeat center center;
-    }
-    .story-3 {
-        background: url("../images/handshake-1500.jpg") no-repeat center center;
-    }
-    .story-3-text {
-        padding-top: 25px;
-    }
-    .story-3 br {
-        display: none;
-    }
-}
-
-
-/* Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
-    /* -- Title
+    /* Extra large devices (large desktops, 1200px and up) */
+    
+    @media (min-width: 1200px) {
+        /* -- Title
                                 --
 -- 
 --
     */
-    .top-screen .title-text {
-        padding: 6px 0 0 50px;
-    }
-    /* -- Callout
+        .top-screen .title-text {
+            padding: 6px 0 0 50px;
+        }
+        /* -- Callout
                             --
                     -- 
                     --
                     */
-    .callout {
-        background: url("../images/rose-petals-flower-design.1501px.jpg") no-repeat 0px -450px;
-    }
-    .callout-text {
-        font-size: 50px;
-        padding: 140px 500px 0 0;
-    }
-    /* --  Shop
+        .callout {
+            background: url("../images/rose-petals-flower-design.1501px.jpg") no-repeat 0px -450px;
+        }
+        .callout-text {
+            font-size: 50px;
+            padding: 140px 500px 0 0;
+            text-align: center;
+        }
+        /* --  Shop
 --
 --
  -- 
 */
-    .shop {
-        height: auto;
-    }
-    .shop-width {
-        margin: auto;
-        width: 970px;
-    }
-    .shop-inline {
-        display: inline-block;
-    }
-    .shop-container {
-        margin: 30px 10px 20px 10px;
-    }
-    .left,
-    .right {
-        float: none;
-    }
-    /* Story 
+        .shop {
+            height: auto;
+        }
+        .shop-width {
+            margin: auto;
+            width: 970px;
+        }
+        .shop-inline {
+            display: inline-block;
+        }
+        .shop-container {
+            margin: 30px 10px 20px 10px;
+        }
+        .left,
+        .right {
+            float: none;
+        }
+        /* Story 
     --
     --
     --
     */
-    .story-1 {
-        background: url("../images/family-1500.jpg") no-repeat center -120px;
+        .story-1 {
+            background: url("../images/family-1500.jpg") no-repeat center -120px;
+        }
+        .story-1-text {
+            padding: 100px 0 0 600px;
+        }
+        .story-2-text {
+            padding: 150px 0 0 0;
+        }
+        .story-3-text {
+            padding: 25px 0 0 0;
+        }
+        .story-text {
+            font-size: 35px;
+            padding: 30px 30px 30px 30px;
+        }
     }
-    .story-1-text {
-        padding: 100px 0 0 600px;
-    }
-    .story-2-text {
-        padding: 150px 0 0 0;
-    }
-    .story-3-text {
-        padding: 25px 0 0 0;
-    }
-    .story-text {
-        font-size: 35px;
-        padding: 30px 30px 30px 30px;
-    }
-}
-
-@media (min-width: 1400px) {
-    /* --  Shop
+    
+    @media (min-width: 1400px) {
+        /* --  Shop
 --
 --
  -- 
 */
-    .shop-width {
-        width: 1300px;
+        .shop-width {
+            width: 1300px;
+        }
+        .shop-container {
+            margin: 50px 63px 50px 63px;
+        }
     }
-    .shop-container {
-        margin: 50px 63px 50px 63px;
-    }
-}
