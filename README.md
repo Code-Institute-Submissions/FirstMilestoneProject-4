@@ -77,6 +77,78 @@ All the text was written by myself.
 
 * Some of the images were taken from google images, using the "For Re-use tool"
 
+    * Balloons.jpg
+    * https://www.publicdomainpictures.net/pictures/300000/velka/balloons-15608841817zs.jpg
+
+    * Handshake.jpg
+    * https://p0.piqsels.com/preview/510/626/568/hands-handshake.jpg
+
+    * Family.jpg
+    * https://p1.pxfuel.com/preview/870/253/196/family-children-sunset-silhouette-royalty-free-thumbnail.jpg
+
+    * everyday-12.jpg
+    * https://i1.pickpik.com/photos/49/982/509/birthday-cake-birthday-cake-icing-preview.jpg
+
+    * everyday-11.jpg
+    * https://s0.geograph.org.uk/photos/72/44/724440_a69bdbdb.jpg
+
+    * everyday-10.jpg
+    * https://p0.pikrepo.com/preview/305/440/chocolate-lava-cake-raspberries-thumbnail.jpg
+
+    * everyday-9.jpg
+    * https://www.publicdomainpictures.net/pictures/310000/velka/birthday-cake-1571501470VVe.jpg
+
+    * everyday-8.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/0/04/Pound_layer_cake.jpg
+
+    * everyday-7.jpg
+    * https://c7.uihere.com/files/528/445/287/pie-chocolate-brigadier-cake.jpg
+
+    * everyday-6.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Red_Velvet_Cake_Waldorf_Astoria.jpg/320px-Red_Velvet_Cake_Waldorf_Astoria.jpg
+
+    * seasonal-12.jpg
+    *  https://farm2.staticflickr.com/1520/25836424245_f82659aeeb_b.jpg
+
+    * seasonal-11.jpg
+    * https://live.staticflickr.com/7193/6862232281_d88e3433af_b.jpg
+
+    * seasonal-10.jpg
+    *  https://live.staticflickr.com/7455/12473042785_a3dca9e74b_z.jpg
+
+    * seasonal-2.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/c/ca/Wedding_Cake_-_With_Roses.jpg
+
+    * cupcake-12.jpg
+    * https://live.staticflickr.com/4018/4576733748_5cb468fb9f_b.jpg
+
+    * cupcake-11.jpg
+    * https://p1.piqsels.com/preview/872/435/778/cupcakes-teal-cake-food-sweet-frosting.jpg
+
+    * cupcake-10.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/8/86/Ice_Cream_Cone_Cupcakes_%284721105087%29.jpg
+
+    * cupcake-9.jpg 
+    * https://i1.pickpik.com/photos/917/941/182/food-cupcake-sweet-colourful-preview.jpg
+
+    * cupcake-8.jpg
+    * https://www.pexels.com/photo/blur-cakes-close-up-cupcakes-416534/
+
+    * cupcake-7.jpg
+    * https://live.staticflickr.com/3194/2636149641_8ff119d48e_b.jpg
+
+    * cupcake-7.jpg
+    * https://www.publicdomainpictures.net/pictures/240000/velka/cupcakes-on-a-tray.jpg
+
+    * cupcake-5.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/f/f1/Cupcake_with_sugar_hearts_and_nonpareils.jpg
+
+    * cupcake-4.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/c/c6/Cupcakes%2C_chocolate_and_strawberry_flavour.jpg
+
+    * rose-petal-flower-design.jpg
+    * https://c1.wallpaperflare.com/preview/989/45/214/rose-petals-flower-design.jpg
+
 * The rest of the images were taken by a friend who has a passion for making cakes.
 
 ## Acknowledgements 
