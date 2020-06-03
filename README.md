@@ -53,7 +53,7 @@ First i was solo testing making sure all the links worked all mages were correct
 Second, i used google lighthouse to help and find faults, and fixing the ones i could. 
 ( i tried to change the images from jpg to jp2 but had trouble with it, inlcuding on the github page as well as on my computer, i then tried with webp and has the same result.)
 
-Third i used css and html validator. Theres one fault were it says the code wont work for the css file 
+Third i used css and html/css validator. Theres one fault were it says the code wont work for the css file 
 (
     display: none; 
     float: right;
@@ -77,14 +77,69 @@ All the text was written by myself.
 
 * Some of the images were taken from google images, using the "For Re-use tool"
 
-    * Balloons.jpg
+    * rose-petal-flower-design.jpg / rose-petal-flower-design.1001.jpg  / rose-petal-flower-design.1201.jpg / rose-petal-flower-design.1501.jpg
+    * https://c1.wallpaperflare.com/preview/989/45/214/rose-petals-flower-design.jpg
+
+    * balloons.jpg / balloons-600.jpg / balloons-800.jpg 
     * https://www.publicdomainpictures.net/pictures/300000/velka/balloons-15608841817zs.jpg
 
-    * Handshake.jpg
+    * handshake.jpg / handshake-1500.jpg
     * https://p0.piqsels.com/preview/510/626/568/hands-handshake.jpg
 
-    * Family.jpg
+    * family.jpg / family-500.jpg / family-800.jpg / family-1100.jpg / family-1200.jpg / family-1500.jpg 
     * https://p1.pxfuel.com/preview/870/253/196/family-children-sunset-silhouette-royalty-free-thumbnail.jpg
+
+    ## Cupcakes
+
+    * cupcake-12.jpg
+    * https://live.staticflickr.com/4018/4576733748_5cb468fb9f_b.jpg
+
+    * cupcake-11.jpg
+    * https://p1.piqsels.com/preview/872/435/778/cupcakes-teal-cake-food-sweet-frosting.jpg
+
+    * cupcake-10.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/8/86/Ice_Cream_Cone_Cupcakes_%284721105087%29.jpg
+
+    * cupcake-9.jpg 
+    * https://i1.pickpik.com/photos/917/941/182/food-cupcake-sweet-colourful-preview.jpg
+
+    * cupcake-8.jpg
+    * https://www.pexels.com/photo/blur-cakes-close-up-cupcakes-416534/
+
+    * cupcake-7.jpg
+    * https://live.staticflickr.com/3194/2636149641_8ff119d48e_b.jpg
+
+    * cupcake-6.jpg
+    * https://www.publicdomainpictures.net/pictures/240000/velka/cupcakes-on-a-tray.jpg
+
+    * cupcake-5.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/f/f1/Cupcake_with_sugar_hearts_and_nonpareils.jpg
+
+    * cupcake-4.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/c/c6/Cupcakes%2C_chocolate_and_strawberry_flavour.jpg
+
+    * cupcake-1.jpg / cupcake-150.jpg / cupcake-300.jpg
+    * https://p2.piqsels.com/preview/300/832/844/cake-chocolate-cream-cupcakes.jpg
+
+    ## Special Occasions
+
+    * seasonal-12.jpg
+    *  https://farm2.staticflickr.com/1520/25836424245_f82659aeeb_b.jpg
+
+    * seasonal-11.jpg
+    * https://live.staticflickr.com/7193/6862232281_d88e3433af_b.jpg
+
+    * seasonal-10.jpg
+    *  https://live.staticflickr.com/7455/12473042785_a3dca9e74b_z.jpg
+
+    * seasonal-2.jpg
+    * https://upload.wikimedia.org/wikipedia/commons/c/ca/Wedding_Cake_-_With_Roses.jpg
+
+    * seasonal-1.jpg
+    * https://www.flickr.com/photos/eldriva/11477811615 
+
+
+    ## Everyday Section
 
     * everyday-12.jpg
     * https://i1.pickpik.com/photos/49/982/509/birthday-cake-birthday-cake-icing-preview.jpg
@@ -107,49 +162,48 @@ All the text was written by myself.
     * everyday-6.jpg
     * https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Red_Velvet_Cake_Waldorf_Astoria.jpg/320px-Red_Velvet_Cake_Waldorf_Astoria.jpg
 
-    * seasonal-12.jpg
-    *  https://farm2.staticflickr.com/1520/25836424245_f82659aeeb_b.jpg
+    * everyday-1.jpg / everyday-150.jpg
+    * https://storage.needpix.com/rsynced_images/chocolate-2354710_1280.jpg
 
-    * seasonal-11.jpg
-    * https://live.staticflickr.com/7193/6862232281_d88e3433af_b.jpg
+* The rest of the images were taken by a family member who has a passion for making cakes.
 
-    * seasonal-10.jpg
-    *  https://live.staticflickr.com/7455/12473042785_a3dca9e74b_z.jpg
+    ## Birthday
+    
+    * birth-150.jpg
+    * birth-1-300.jpg
+    * birth-2-300.jpg
+    * birth-3-300.jpg
+    * birth-4-300.jpg
+    * birth-5-300.jpg
+    * birth-6-300.jpg
+    * birth-7-300.jpg
+    * birth-8-300.jpg
+    * birth-9-300.jpg
+    * birth-10-300.jpg
+    * birth-11-300.jpg
+    * birth-12-300.jpg
 
-    * seasonal-2.jpg
-    * https://upload.wikimedia.org/wikipedia/commons/c/ca/Wedding_Cake_-_With_Roses.jpg
+    ## Cupcakes
 
-    * cupcake-12.jpg
-    * https://live.staticflickr.com/4018/4576733748_5cb468fb9f_b.jpg
+    * cupcake-1.jpg
+    * cupcake-2.jpg 
 
-    * cupcake-11.jpg
-    * https://p1.piqsels.com/preview/872/435/778/cupcakes-teal-cake-food-sweet-frosting.jpg
+    ## Special Occasions
 
-    * cupcake-10.jpg
-    * https://upload.wikimedia.org/wikipedia/commons/8/86/Ice_Cream_Cone_Cupcakes_%284721105087%29.jpg
+    * seasonal-3.jpg
+    * seasonal-4.jpg
+    * seasonal-5.jpg
+    * seasonal-6.jpg / seasonal-150.jpg
+    * seasonal-7.jpg
+    * seasonal-8.jpg
+    * seasonal-9.jpg
 
-    * cupcake-9.jpg 
-    * https://i1.pickpik.com/photos/917/941/182/food-cupcake-sweet-colourful-preview.jpg
+    ## Everyday
 
-    * cupcake-8.jpg
-    * https://www.pexels.com/photo/blur-cakes-close-up-cupcakes-416534/
-
-    * cupcake-7.jpg
-    * https://live.staticflickr.com/3194/2636149641_8ff119d48e_b.jpg
-
-    * cupcake-7.jpg
-    * https://www.publicdomainpictures.net/pictures/240000/velka/cupcakes-on-a-tray.jpg
-
-    * cupcake-5.jpg
-    * https://upload.wikimedia.org/wikipedia/commons/f/f1/Cupcake_with_sugar_hearts_and_nonpareils.jpg
-
-    * cupcake-4.jpg
-    * https://upload.wikimedia.org/wikipedia/commons/c/c6/Cupcakes%2C_chocolate_and_strawberry_flavour.jpg
-
-    * rose-petal-flower-design.jpg
-    * https://c1.wallpaperflare.com/preview/989/45/214/rose-petals-flower-design.jpg
-
-* The rest of the images were taken by a friend who has a passion for making cakes.
+    * everyday-2.jpg
+    * everyday-3.jpg
+    * everyday-4.jpg
+    * everyday-5.jpg
 
 ## Acknowledgements 
 
